@@ -1,0 +1,114 @@
+{
+  "companies": [
+    {
+      "name": "FSB d.o.o.",
+      "description": "Vodeća hrvatska tvrtka za protupožarnu zaštitu s više od 30 godina iskustva. Specijalizirani smo za projektiranje, izvođenje i nadzor sustava protupožarne zaštite u svim vrstama objekata."
+    },
+    {
+      "name": "FSB SOLUTIONS d.o.o.",
+      "description": "Sestrinska tvrtka specijalizirana za distribuciju i tehničku podršku protupožarnih proizvoda vrhunske kvalitete. Zastupamo vodeće europske proizvođače i pružamo kompletnu tehničku podršku."
+    }
+  ],
+  "contactEmail": "hr@fsb-zagreb.hr",
+  "jobs": [
+    {
+      "slug": "voditelj-projekata-protupozarne-zastite",
+      "title": "Voditelj projekata protupožarne zaštite",
+      "type": "Puno radno vrijeme",
+      "location": "Zagreb",
+      "department": "Projekti",
+      "description": "Tražimo iskusnog voditelja projekata koji će koordinirati izvođenje radova protupožarne zaštite na zahtjevnim projektima diljem Hrvatske. Pridružite se našem timu i radite na najzahtjevnijim projektima u regiji.",
+      "responsibilities": [
+        "Planiranje i koordinacija izvođenja radova protupožarne zaštite",
+        "Vođenje projektnog tima i suradnja s podizvođačima",
+        "Komunikacija s investitorima i nadzornim inženjerima",
+        "Praćenje napretka projekta i kontrola kvalitete",
+        "Priprema izvješća i dokumentacije",
+        "Osiguranje poštivanja rokova i proračuna"
+      ],
+      "requirements": [
+        "Visoka stručna sprema tehničkog smjera (građevina, strojarstvo ili slično)",
+        "Minimalno 5 godina iskustva u vođenju projekata",
+        "Poznavanje propisa protupožarne zaštite",
+        "Izvrsne organizacijske i komunikacijske vještine",
+        "Vozačka dozvola B kategorije",
+        "Poznavanje engleskog jezika"
+      ],
+      "benefits": [
+        "Konkurentna plaća i bonusi",
+        "Službeni automobil",
+        "Kontinuirana edukacija i certifikacije",
+        "Mogućnost napredovanja",
+        "Rad na prestižnim projektima",
+        "Poticajno radno okruženje"
+      ],
+      "active": true
+    },
+    {
+      "slug": "izvodac-radova-protupozarnog-brtvljenja",
+      "title": "Izvođač radova protupožarnog brtvljenja",
+      "type": "Puno radno vrijeme",
+      "location": "Zagreb i šira okolica",
+      "department": "Izvođenje",
+      "description": "Tražimo motivirane izvođače radova za ugradnju protupožarnog brtvljenja na građevinskim objektima. Nudimo obuku i certifikaciju za rad s najnovijim materijalima i tehnologijama.",
+      "responsibilities": [
+        "Ugradnja protupožarnog brtvljenja prema projektnoj dokumentaciji",
+        "Rad s različitim vrstama prodora (kabeli, cijevi, kombinirani)",
+        "Poštivanje tehničkih specifikacija i standarda",
+        "Dokumentiranje izvedenih radova",
+        "Postavljanje identifikacijskih oznaka",
+        "Suradnja s voditeljem projekta i ostalim članovima tima"
+      ],
+      "requirements": [
+        "Srednja stručna sprema tehničkog smjera",
+        "Iskustvo u građevinarstvu (poželjno u protupožarnoj zaštiti)",
+        "Spremnost na rad na visini i u zatvorenim prostorima",
+        "Fizička spremnost za terenski rad",
+        "Vozačka dozvola B kategorije",
+        "Odgovornost i preciznost u radu"
+      ],
+      "benefits": [
+        "Redovna plaća i dnevnice za terenski rad",
+        "Besplatna edukacija i certifikacija",
+        "Mogućnost stalnog zaposlenja",
+        "Radna oprema i alati",
+        "Timski rad i podrška kolega",
+        "Mogućnost napredovanja"
+      ],
+      "active": true
+    },
+    {
+      "slug": "prodajni-inzenjer",
+      "title": "Prodajni inženjer",
+      "type": "Puno radno vrijeme",
+      "location": "Zagreb",
+      "department": "Prodaja",
+      "description": "Pridružite se našem prodajnom timu kao prodajni inženjer i predstavljajte vrhunske protupožarne proizvode našim klijentima. Idealna pozicija za tehničke stručnjake s prodajnim vještinama.",
+      "responsibilities": [
+        "Razvoj i održavanje odnosa s postojećim klijentima",
+        "Identifikacija novih prodajnih prilika",
+        "Tehnička prezentacija proizvoda i rješenja",
+        "Priprema ponuda i tehničke dokumentacije",
+        "Praćenje tržišta i konkurencije",
+        "Sudjelovanje na sajmovima i stručnim događanjima"
+      ],
+      "requirements": [
+        "Visoka stručna sprema tehničkog smjera",
+        "Minimalno 2 godine iskustva u tehničkoj prodaji",
+        "Poznavanje građevinske industrije",
+        "Odlične prezentacijske i pregovaračke vještine",
+        "Vozačka dozvola B kategorije",
+        "Poznavanje engleskog jezika"
+      ],
+      "benefits": [
+        "Atraktivna osnovna plaća + provizija",
+        "Službeni automobil i mobitel",
+        "Fleksibilno radno vrijeme",
+        "Kontinuirana edukacija",
+        "Mogućnost napredovanja",
+        "Rad s vodećim brendovima u industriji"
+      ],
+      "active": true
+    }
+  ]
+}

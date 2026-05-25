@@ -1,0 +1,168 @@
+{
+  "categories": [
+    {
+      "slug": "protupozarno-brtvljenje",
+      "title": "Protupožarno brtvljenje",
+      "description": "Proizvodi za brtvljenje prodora kabela, cijevi i drugih instalacija kroz protupožarne pregrade.",
+      "image": "/images/products/categories/brtvljenje.jpg"
+    },
+    {
+      "slug": "protupozarna-boja-i-premaz",
+      "title": "Protupožarna boja i premaz",
+      "description": "Intumescentni premazi i boje za zaštitu čeličnih i drvenih konstrukcija od požara.",
+      "image": "/images/products/categories/boja.jpg"
+    },
+    {
+      "slug": "protupozarne-ploce",
+      "title": "Protupožarne ploče",
+      "description": "Vatrooporne ploče za oblaganje konstrukcija i izradu protupožarnih pregrada.",
+      "image": "/images/products/categories/ploce.jpg"
+    },
+    {
+      "slug": "protupozarni-moduli",
+      "title": "Protupožarni moduli",
+      "description": "Modularni sustavi za brtvljenje složenih prodora s više vrsta instalacija.",
+      "image": "/images/products/categories/moduli.jpg"
+    },
+    {
+      "slug": "protupozarna-stakla",
+      "title": "Protupožarna stakla",
+      "description": "Vatrootporna stakla za protupožarne stijene, vrata i prozore.",
+      "image": "/images/products/categories/stakla.jpg"
+    },
+    {
+      "slug": "protupozarna-vuna",
+      "title": "Protupožarna vuna",
+      "description": "Mineralna vuna za toplinsku izolaciju i protupožarnu zaštitu.",
+      "image": "/images/products/categories/vuna.jpg"
+    },
+    {
+      "slug": "silikatne-ploce-za-kamine",
+      "title": "Silikatne ploče za kamine",
+      "description": "Specijalizirane ploče za ugradnju i zaštitu kamina i peći.",
+      "image": "/images/products/categories/silikatne.jpg"
+    }
+  ],
+  "products": [
+    {
+      "slug": "promat-unicable",
+      "category": "protupozarno-brtvljenje",
+      "title": "PROMAT UNICABLE",
+      "manufacturer": "Promat",
+      "description": "Univerzalni sustav za brtvljenje kablovskih prodora",
+      "fullDescription": "PROMAT UNICABLE je inovativni sustav za brtvljenje kablovskih prodora koji omogućuje jednostavnu ugradnju i naknadne izmjene. Sustav pruža otpornost na požar do 120 minuta i certificiran je prema EN 1366-3.\n\nPrednosti:\n- Jednostavna ugradnja\n- Mogućnost naknadnog dodavanja kabela\n- Estetski izgled\n- Dugi vijek trajanja",
+      "specifications": {
+        "fireResistance": "EI 120",
+        "standard": "EN 1366-3",
+        "sizes": "Različite dimenzije prema potrebi"
+      },
+      "image": "/images/products/promat-unicable.jpg",
+      "datasheet": "/documents/promat-unicable.pdf"
+    },
+    {
+      "slug": "promat-collar",
+      "category": "protupozarno-brtvljenje",
+      "title": "PROMAT COLLAR",
+      "manufacturer": "Promat",
+      "description": "Protupožarna obujmica za plastične cijevi",
+      "fullDescription": "PROMAT COLLAR je protupožarna obujmica dizajnirana za brtvljenje prodora plastičnih cijevi. U slučaju požara, intumescentni materijal ekspandira i zatvara otvor nastao taljenjem plastične cijevi.\n\nKarakteristike:\n- Za plastične cijevi do Ø160mm\n- Jednostavna montaža\n- Otpornost na požar EI 120\n- Certificiran prema EN 1366-3",
+      "specifications": {
+        "fireResistance": "EI 120",
+        "standard": "EN 1366-3",
+        "sizes": "Ø32 - Ø160 mm"
+      },
+      "image": "/images/products/promat-collar.jpg",
+      "datasheet": "/documents/promat-collar.pdf"
+    },
+    {
+      "slug": "hensel-firesafe",
+      "category": "protupozarna-boja-i-premaz",
+      "title": "Rudolf Hensel FIRESAFE",
+      "manufacturer": "Rudolf Hensel",
+      "description": "Intumescentni premaz za čelične konstrukcije",
+      "fullDescription": "Rudolf Hensel FIRESAFE je vrhunski intumescentni premaz za zaštitu čeličnih konstrukcija od požara. Premaz ekspandira pri povišenoj temperaturi stvarajući izolacijski sloj koji štiti čelik.\n\nPrednosti:\n- Otpornost na požar do R 120\n- Tanki sloj aplikacije\n- Različite završne boje\n- Certificiran prema EN 13381-8",
+      "specifications": {
+        "fireResistance": "R 30 - R 120",
+        "standard": "EN 13381-8",
+        "coverage": "Ovisno o profilu i zahtijevanoj otpornosti"
+      },
+      "image": "/images/products/hensel-firesafe.jpg",
+      "datasheet": "/documents/hensel-firesafe.pdf"
+    },
+    {
+      "slug": "promat-board",
+      "category": "protupozarne-ploce",
+      "title": "PROMATECT-H",
+      "manufacturer": "Promat",
+      "description": "Kalcij-silikatna ploča za protupožarnu zaštitu",
+      "fullDescription": "PROMATECT-H je visokoučinkovita kalcij-silikatna ploča za zaštitu konstrukcija i izradu protupožarnih pregrada. Ploča je stabilna, lagana i jednostavna za obradu.\n\nPrimjene:\n- Oblaganje čeličnih konstrukcija\n- Izrada protupožarnih pregrada\n- Zaštita kablovskih trasa\n- Obloge u tunelima",
+      "specifications": {
+        "fireResistance": "Do R 240",
+        "standard": "EN 13501-2",
+        "thickness": "6 - 60 mm"
+      },
+      "image": "/images/products/promatect-h.jpg",
+      "datasheet": "/documents/promatect-h.pdf"
+    },
+    {
+      "slug": "promat-modular",
+      "category": "protupozarni-moduli",
+      "title": "PROMAT MODULAR",
+      "manufacturer": "Promat",
+      "description": "Modularni sustav za brtvljenje složenih prodora",
+      "fullDescription": "PROMAT MODULAR je fleksibilan modularni sustav za brtvljenje složenih prodora s različitim vrstama instalacija. Sustav omogućuje kombiniranje kabela, cijevi i kanalica u jednom prodoru.\n\nKarakteristike:\n- Fleksibilna konfiguracija\n- Za sve vrste instalacija\n- Jednostavne naknadne izmjene\n- Otpornost na požar EI 120",
+      "specifications": {
+        "fireResistance": "EI 120",
+        "standard": "EN 1366-3",
+        "configuration": "Modularna - prilagodljiva"
+      },
+      "image": "/images/products/promat-modular.jpg",
+      "datasheet": "/documents/promat-modular.pdf"
+    },
+    {
+      "slug": "promat-systemglas",
+      "category": "protupozarna-stakla",
+      "title": "PROMAT SYSTEMGLAS",
+      "manufacturer": "Promat",
+      "description": "Protupožarno staklo za stijene i vrata",
+      "fullDescription": "PROMAT SYSTEMGLAS je protupožarno staklo namijenjeno ugradnji u protupožarne stijene i vrata. Pruža transparentnost i sigurnost u jednom.\n\nKarakteristike:\n- Otpornost na požar EI 30 - EI 120\n- Visoka transparentnost\n- UV stabilnost\n- Certificirano prema EN 1364",
+      "specifications": {
+        "fireResistance": "EI 30 - EI 120",
+        "standard": "EN 1364-1",
+        "thickness": "15 - 43 mm"
+      },
+      "image": "/images/products/promat-systemglas.jpg",
+      "datasheet": "/documents/promat-systemglas.pdf"
+    },
+    {
+      "slug": "promat-wool",
+      "category": "protupozarna-vuna",
+      "title": "PROMAT kamena vuna",
+      "manufacturer": "Promat",
+      "description": "Kamena vuna za protupožarnu izolaciju",
+      "fullDescription": "PROMAT kamena vuna je visokokvalitetna mineralna vuna za protupožarnu i toplinsku izolaciju. Idealna za primjenu u brtvljenjima, oblogama i protupožarnim pregradama.\n\nKarakteristike:\n- Točka taljenja >1000°C\n- Izvrsna toplinska izolacija\n- Zvučna izolacija\n- Nekombustibilan materijal",
+      "specifications": {
+        "meltingPoint": ">1000°C",
+        "standard": "EN 13501-1: A1",
+        "density": "40 - 150 kg/m³"
+      },
+      "image": "/images/products/promat-wool.jpg",
+      "datasheet": "/documents/promat-wool.pdf"
+    },
+    {
+      "slug": "silca-kaminske-ploce",
+      "category": "silikatne-ploce-za-kamine",
+      "title": "SILCA kaminske ploče",
+      "manufacturer": "SILCA",
+      "description": "Silikatne ploče za ugradnju kamina",
+      "fullDescription": "SILCA kaminske ploče su specijalizirane kalcij-silikatne ploče namijenjene za sigurnu ugradnju kamina i peći. Pružaju potrebnu toplinsku izolaciju i vatrootpornost.\n\nPrimjene:\n- Izolacija iza kamina\n- Podloge za peći\n- Zaštita građevinskih elemenata\n- Dekorativne obloge",
+      "specifications": {
+        "maxTemperature": "1100°C",
+        "standard": "EN 13501-1: A1",
+        "thickness": "25 - 50 mm"
+      },
+      "image": "/images/products/silca-ploce.jpg",
+      "datasheet": "/documents/silca-ploce.pdf"
+    }
+  ]
+}

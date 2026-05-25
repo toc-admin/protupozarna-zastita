@@ -1,0 +1,82 @@
+{
+  "solutions": [
+    {
+      "slug": "fsg-s",
+      "title": "FSG-S",
+      "description": "Sustav za protupožarno brtvljenje kablovskih prodora",
+      "fullDescription": "FSG-S je inovativni sustav za protupožarno brtvljenje kablovskih prodora koji pruža izvrsnu otpornost na požar do 120 minuta. Sustav je certificiran prema europskim normama i idealan je za primjenu u svim vrstama objekata.\n\nKarakteristike sustava:\n\n- Otpornost na požar: EI 120\n- Jednostavna ugradnja\n- Mogućnost naknadnog dodavanja kabela\n- Certificiran prema EN 1366-3",
+      "image": "/images/solutions/fsg-s.jpg",
+      "specifications": {
+        "fireResistance": "EI 120",
+        "standard": "EN 1366-3",
+        "application": "Kablovske police i pojedinačni kabeli"
+      },
+      "category": "brtvljenje"
+    },
+    {
+      "slug": "fsp-90",
+      "title": "FSP-90",
+      "description": "Protupožarna ploča za zaštitu čeličnih konstrukcija",
+      "fullDescription": "FSP-90 je visokoučinkovita protupožarna ploča dizajnirana za zaštitu čeličnih konstrukcija. Pruža otpornost na požar do 90 minuta i idealna je za primjenu u industrijskim halama, skladištima i poslovnim objektima.\n\nKarakteristike proizvoda:\n\n- Otpornost na požar: R 90\n- Niska težina\n- Jednostavna montaža\n- Estetski završetak",
+      "image": "/images/solutions/fsp-90.jpg",
+      "specifications": {
+        "fireResistance": "R 90",
+        "standard": "EN 13381-4",
+        "application": "Čelične konstrukcije"
+      },
+      "category": "ploce"
+    },
+    {
+      "slug": "samostalni-vod-za-odvodnju-dima-i-topline",
+      "title": "Samostalni vod za odvodnju dima i topline",
+      "description": "Kompletni sustav za prirodnu ventilaciju i odvod dima",
+      "fullDescription": "Samostalni vod za odvodnju dima i topline je kompletan sustav koji osigurava sigurnu evakuaciju dima i topline u slučaju požara. Sustav omogućuje prirodnu ventilaciju i ključan je element pasivne protupožarne zaštite.\n\nPrednosti sustava:\n\n- Automatska aktivacija u slučaju požara\n- Manualna aktivacija kao opcija\n- Nisko održavanje\n- Dugi vijek trajanja",
+      "image": "/images/solutions/vod-dim.jpg",
+      "specifications": {
+        "fireResistance": "E 90 / EI 60",
+        "standard": "EN 12101-2",
+        "application": "Industrijski objekti, garaže, atriji"
+      },
+      "category": "ventilacija"
+    },
+    {
+      "slug": "fsd-1",
+      "title": "FSD-1",
+      "description": "Protupožarna zaklopka za ventilacijske kanale",
+      "fullDescription": "FSD-1 je pouzdana protupožarna zaklopka dizajnirana za ugradnju u ventilacijske kanale. Automatski se zatvara u slučaju požara, sprječavajući širenje vatre i dima kroz ventilacijski sustav.\n\nKarakteristike:\n\n- Automatsko zatvaranje termičkim okidačem\n- Mogućnost daljinske kontrole\n- Otpornost na požar do 120 minuta\n- Certificiran prema EN 15650",
+      "image": "/images/solutions/fsd-1.jpg",
+      "specifications": {
+        "fireResistance": "EI 120 S",
+        "standard": "EN 15650",
+        "application": "Ventilacijski kanali"
+      },
+      "category": "zaklopke"
+    },
+    {
+      "slug": "fsd-1-hh",
+      "title": "FSD-1-HH",
+      "description": "Protupožarna zaklopka za high-rise zgrade",
+      "fullDescription": "FSD-1-HH je specijalizirana protupožarna zaklopka razvijena za primjenu u visokim zgradama. Zadovoljava najstrože sigurnosne zahtjeve i pruža pouzdanu zaštitu u najzahtjevnijim uvjetima.\n\nKarakteristike:\n\n- Pojačana konstrukcija za visoke zgrade\n- Integriran sustav nadzora\n- Otpornost na požar do 120 minuta\n- Testirano na povišeni tlak",
+      "image": "/images/solutions/fsd-1-hh.jpg",
+      "specifications": {
+        "fireResistance": "EI 120 S",
+        "standard": "EN 15650",
+        "application": "Visoke zgrade (high-rise)"
+      },
+      "category": "zaklopke"
+    },
+    {
+      "slug": "protupozarna-brtva-za-cijevi",
+      "title": "Protupožarna brtva za cijevi",
+      "description": "Univerzalna brtva za brtvljenje prodora cijevi kroz zidove i stropove",
+      "fullDescription": "Naša protupožarna brtva za cijevi pruža pouzdano brtvljenje prodora metalnih i plastičnih cijevi kroz protupožarne pregrade. Sustav je jednostavan za ugradnju i omogućuje naknadne intervencije.\n\nPrednosti:\n\n- Primjenjivo za metalne i plastične cijevi\n- Jednostavna ugradnja\n- Mogućnost demontaže i ponovne montaže\n- Otpornost na požar do 120 minuta",
+      "image": "/images/solutions/brtva-cijevi.jpg",
+      "specifications": {
+        "fireResistance": "EI 120",
+        "standard": "EN 1366-3",
+        "application": "Prodori cijevi"
+      },
+      "category": "brtvljenje"
+    }
+  ]
+}

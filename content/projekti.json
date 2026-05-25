@@ -1,0 +1,116 @@
+{
+  "projects": [
+    {
+      "slug": "kbc-sestre-milosrdnice",
+      "title": "KBC Sestre milosrdnice",
+      "category": "Zdravstvene ustanove",
+      "location": "Zagreb",
+      "year": "2022",
+      "description": "Kompleksni projekt protupožarne zaštite za bolnički kompleks. Uključivao je protupožarno brtvljenje prodora instalacija, ugradnju protupožarnih vrata i sustava za odvod dima.",
+      "scope": [
+        "Protupožarno brtvljenje kablovskih prodora",
+        "Ugradnja protupožarnih vrata EI 60",
+        "Sustav za odvod dima i topline",
+        "Protupožarni premazi na čeličnim konstrukcijama"
+      ],
+      "image": "/images/projects/kbc-sestre.jpg",
+      "gallery": [
+        "/images/projects/kbc-sestre-1.jpg",
+        "/images/projects/kbc-sestre-2.jpg",
+        "/images/projects/kbc-sestre-3.jpg"
+      ],
+      "featured": true
+    },
+    {
+      "slug": "poslovna-zgrada-bhb",
+      "title": "Poslovna zgrada BHB",
+      "category": "Poslovne zgrade",
+      "location": "Zagreb",
+      "year": "2021",
+      "description": "Moderna poslovna zgrada s najvišim standardima protupožarne zaštite. Projekt je uključivao kompletnu protupožarnu zaštitu od temelja do krova.",
+      "scope": [
+        "Protupožarno brtvljenje svih prodora",
+        "Protupožarne zaklopke u ventilacijskom sustavu",
+        "Protupožarna stakla u atriju",
+        "Sustav za detekciju požara"
+      ],
+      "image": "/images/projects/bhb.jpg",
+      "gallery": [
+        "/images/projects/bhb-1.jpg",
+        "/images/projects/bhb-2.jpg"
+      ],
+      "featured": true
+    },
+    {
+      "slug": "zicara-sljeme",
+      "title": "Žičara Sljeme",
+      "category": "Javna infrastruktura",
+      "location": "Zagreb - Sljeme",
+      "year": "2022",
+      "description": "Protupožarna zaštita novog kompleksa žičare Sljeme. Poseban izazov predstavljala je zaštita u zahtjevnim planinskim uvjetima.",
+      "scope": [
+        "Protupožarni premazi na čeličnim konstrukcijama",
+        "Protupožarno brtvljenje u strojarnici",
+        "Zaštita kablovskih trasa",
+        "Protupožarne ploče"
+      ],
+      "image": "/images/projects/zicara-sljeme.jpg",
+      "gallery": [
+        "/images/projects/zicara-1.jpg",
+        "/images/projects/zicara-2.jpg"
+      ],
+      "featured": true
+    },
+    {
+      "slug": "shopping-centar-arena",
+      "title": "Shopping centar Arena",
+      "category": "Trgovački centri",
+      "location": "Zagreb",
+      "year": "2020",
+      "description": "Veliki trgovački centar sa složenim zahtjevima protupožarne zaštite. Realizacija uključivala koordinaciju s brojnim izvođačima.",
+      "scope": [
+        "Sektoriranje požarnih zona",
+        "Protupožarna vrata i staklene stijene",
+        "Sustav za odvod dima",
+        "Brtvljenje svih instalacijskih prodora"
+      ],
+      "image": "/images/projects/arena.jpg",
+      "gallery": [],
+      "featured": false
+    },
+    {
+      "slug": "hotel-westin",
+      "title": "Hotel Westin",
+      "category": "Hoteli",
+      "location": "Zagreb",
+      "year": "2019",
+      "description": "Prestižni hotel s najstrožim zahtjevima sigurnosti. Protupožarna zaštita usklađena s međunarodnim standardima.",
+      "scope": [
+        "Protupožarno brtvljenje u svim etažama",
+        "Protupožarna vrata u hodnicima",
+        "Zaštita dizala i stubišta",
+        "Protupožarne zaklopke"
+      ],
+      "image": "/images/projects/westin.jpg",
+      "gallery": [],
+      "featured": false
+    },
+    {
+      "slug": "farmaceutska-tvornica-pliva",
+      "title": "Farmaceutska tvornica Pliva",
+      "category": "Industrija",
+      "location": "Zagreb",
+      "year": "2021",
+      "description": "Industrijski objekt s posebnim zahtjevima za čistoću i protupožarnu zaštitu. Primijenjeni specijalizirani sustavi.",
+      "scope": [
+        "Protupožarno brtvljenje u čistim sobama",
+        "Specijalne protupožarne zaklopke",
+        "Zaštita procesnih instalacija",
+        "Protupožarni premazi"
+      ],
+      "image": "/images/projects/pliva.jpg",
+      "gallery": [],
+      "featured": false
+    }
+  ]
+}

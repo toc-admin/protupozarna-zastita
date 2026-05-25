@@ -1,0 +1,64 @@
+{
+  "services": [
+    {
+      "slug": "izvodjenje-radova-protupozarne-zastite",
+      "title": "Izvođenje radova protupožarne zaštite",
+      "shortTitle": "Izvođenje radova",
+      "description": "Profesionalno izvođenje svih vrsta radova protupožarne zaštite prema najvišim standardima kvalitete.",
+      "fullDescription": "FSB Protupožarna Zaštita nudi profesionalno izvođenje svih vrsta radova protupožarne zaštite. Naš tim iskusnih stručnjaka osigurava da svaki projekt bude izveden prema najvišim standardima kvalitete i u skladu s važećim propisima.\n\nNaše usluge izvođenja radova uključuju:\n\n- Protupožarno brtvljenje prodora instalacija\n- Aplikaciju protupožarnih premaza na čeličnim konstrukcijama\n- Ugradnju protupožarnih ploča\n- Montažu protupožarnih sustava za odvod dima i topline\n- Ugradnju protupožarnih vrata i prozora\n\nSvaki projekt realiziramo s posebnom pažnjom, od planiranja do završne kontrole, osiguravajući da naši klijenti dobiju rješenja koja u potpunosti zadovoljavaju njihove potrebe i zakonske zahtjeve.",
+      "image": "/images/services/izvodjenje-radova.jpg",
+      "features": [
+        "Certificirani izvođači",
+        "Vrhunski materijali",
+        "Kompletna dokumentacija",
+        "Garancija kvalitete"
+      ],
+      "icon": "wrench"
+    },
+    {
+      "slug": "optimizacija-troskova-protupozarne-zastite",
+      "title": "Optimizacija troškova protupožarne zaštite",
+      "shortTitle": "Optimizacija troškova",
+      "description": "Stručna pomoć u optimizaciji troškova protupožarne zaštite bez kompromisa na sigurnosti.",
+      "fullDescription": "Razumijemo da su troškovi protupožarne zaštite značajna stavka u svakom građevinskom projektu. Zato nudimo stručne usluge optimizacije troškova koje vam omogućuju postizanje maksimalne razine zaštite uz racionalno korištenje resursa.\n\nNaše usluge optimizacije uključuju:\n\n- Analizu projektne dokumentacije i identifikaciju mogućnosti uštede\n- Predlaganje alternativnih rješenja jednake ili bolje kvalitete\n- Optimizaciju izbora materijala prema omjeru cijene i performansi\n- Koordinaciju s projektantima i izvođačima\n- Praćenje troškova tijekom cijelog projekta\n\nNašim pristupom klijenti redovito ostvaruju značajne uštede, zadržavajući pritom najvišu razinu protupožarne zaštite i potpunu usklađenost s propisima.",
+      "image": "/images/services/optimizacija.jpg",
+      "features": [
+        "Analiza projekta",
+        "Alternativna rješenja",
+        "Značajne uštede",
+        "Bez kompromisa na kvaliteti"
+      ],
+      "icon": "calculator"
+    },
+    {
+      "slug": "edukacija",
+      "title": "Edukacija - jamstvo izvrsnosti i sigurnosti",
+      "shortTitle": "Edukacija",
+      "description": "Specijalizirani programi edukacije za projektante, izvođače i nadzorne inženjere.",
+      "fullDescription": "Vjerujemo da je znanje temelj sigurnosti. Zato nudimo sveobuhvatne programe edukacije namijenjene svim sudionicima u procesu projektiranja i izvođenja protupožarne zaštite.\n\nNaši edukacijski programi uključuju:\n\n- Seminare za projektante o novim propisima i tehnologijama\n- Praktičnu obuku izvođača za pravilnu ugradnju sustava\n- Specijalizirane radionice za nadzorne inženjere\n- In-house edukacije prilagođene potrebama tvrtki\n- Certifikacijske programe za pojedine sustave\n\nNaši predavači su priznati stručnjaci s dugogodišnjim praktičnim iskustvom. Program edukacije redovito ažuriramo u skladu s najnovijim propisima i tehnološkim dostignućima u području protupožarne zaštite.",
+      "image": "/images/services/edukacija.jpg",
+      "features": [
+        "Iskusni predavači",
+        "Praktična obuka",
+        "Certifikati",
+        "Aktualni sadržaj"
+      ],
+      "icon": "graduation-cap"
+    },
+    {
+      "slug": "laboratorijsko-ispitivanje",
+      "title": "Laboratorijsko ispitivanje",
+      "shortTitle": "Laboratorijsko ispitivanje",
+      "description": "Akreditirano laboratorijsko ispitivanje protupožarnih sustava i materijala.",
+      "fullDescription": "Naš akreditirani laboratorij pruža usluge ispitivanja protupožarnih sustava i materijala u skladu s hrvatskim i europskim normama. Ispitivanja provode certificirani stručnjaci koristeći najsuvremeniju opremu.\n\nUsluge laboratorijskog ispitivanja:\n\n- Ispitivanje otpornosti na požar građevinskih elemenata\n- Ispitivanje reakcije na požar materijala\n- Ispitivanje protupožarnih brtvljenja prodora\n- Ispitivanje protupožarnih premaza\n- Ispitivanje protupožarnih vrata i prozora\n\nRezultati naših ispitivanja priznati su od strane nadležnih tijela i mogu se koristiti za dobivanje potrebnih certifikata i odobrenja. Jamčimo točnost, pouzdanost i povjerljivost svih rezultata ispitivanja.",
+      "image": "/images/services/laboratorij.jpg",
+      "features": [
+        "Akreditirani laboratorij",
+        "Certificirani stručnjaci",
+        "Moderna oprema",
+        "Priznati rezultati"
+      ],
+      "icon": "flask"
+    }
+  ]
+}
