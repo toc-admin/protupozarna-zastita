@@ -12,9 +12,9 @@ const navigation = [
     href: "/usluge",
     children: [
       { name: "Izvođenje radova", href: "/usluge/izvodjenje-radova-protupozarne-zastite" },
-      { name: "Optimizacija troškova", href: "/usluge/optimizacija-troskova-protupozarne-zastite" },
-      { name: "Edukacija", href: "/usluge/edukacija" },
-      { name: "Laboratorijsko ispitivanje", href: "/usluge/laboratorijsko-ispitivanje" },
+      { name: "Savjetovanje i optimizacija", href: "/usluge/optimizacija-troskova-protupozarne-zastite" },
+      { name: "FSB Academy", href: "/usluge/fsb-academy" },
+      { name: "Razvoj i proizvodnja", href: "/usluge/razvoj-i-proizvodnja" },
     ],
   },
   { name: "Rješenja", href: "/rjesenja" },

@@ -126,7 +126,7 @@ export default function Hero({
               }`}
             >
               <div>
-                <div className="text-3xl font-bold text-white">30+</div>
+                <div className="text-3xl font-bold text-white">20</div>
                 <div className="text-neutral-400 text-sm">godina iskustva</div>
               </div>
               <div>

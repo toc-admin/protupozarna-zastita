@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/", "/admin/"],
     },
-    sitemap: "https://fsb-protupozarna-zastita.hr/sitemap.xml",
+    sitemap: "https://www.protupozarna-zastita.com/sitemap.xml",
   };
 }

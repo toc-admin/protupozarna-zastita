@@ -11,7 +11,7 @@ export default function Director() {
             <div className="relative h-full bg-neutral-200 rounded-2xl overflow-hidden">
               <Image
                 src="/images/team/direktor.jpg"
-                alt="Dipl. ing. Miro Bačlija - Direktor"
+                alt="Dipl. ing. Stipe Barišić - Direktor"
                 fill
                 className="object-cover"
               />
@@ -24,25 +24,27 @@ export default function Director() {
               Vodstvo
             </p>
             <h2 className="text-3xl md:text-4xl font-bold text-neutral-900">
-              Dipl. ing. Miro Bačlija
+              Dipl. ing. Stipe Barišić
             </h2>
             <p className="mt-2 text-lg text-neutral-600">
               Direktor i osnivač
             </p>
             <div className="mt-6 space-y-4 text-neutral-600">
               <p>
-                S više od 30 godina iskustva u području protupožarne zaštite, Miro Bačlija
-                je jedan od vodećih stručnjaka u Hrvatskoj. Diplomirao je na Fakultetu
-                strojarstva i brodogradnje u Zagrebu.
+                S 20 godina iskustva u pasivnoj protupožarnoj zaštiti, Stipe Barišić
+                jedan je od vodećih stručnjaka u Hrvatskoj i regiji. Karijeru je gradio
+                kao direktor predstavništva Promat G.m.b.H. u Hrvatskoj te tehnički
+                direktor Promat SEE.
               </p>
               <p>
-                Pod njegovim vodstvom, FSB Protupožarna Zaštita izrasla je u jednu od
-                vodećih tvrtki u području protupožarne zaštite u regiji, s više od 300
-                uspješno realiziranih projekata.
+                FSB je osnovao 2013. godine, nastavljajući na dokazanom modelu
+                poslovanja — savjetovanju za optimalan odabir mjera pasivne protupožarne
+                zaštite i izvođenju zahtjevnih projekata, s više od 300 uspješno
+                realiziranih projekata.
               </p>
               <p>
-                Aktivno sudjeluje u izradi normi i propisa te redovito educira stručnu
-                javnost kroz seminare i publikacije.
+                Redovito educira stručnu javnost kroz seminare i predavanja, uključujući
+                Croatian Fire Safety Forum.
               </p>
             </div>
           </div>

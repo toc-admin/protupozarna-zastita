@@ -6,22 +6,22 @@ import ContactForm from "@/components/forms/ContactForm";
 export const metadata: Metadata = {
   title: "Kontakt",
   description:
-    "Kontaktirajte FSB Protupožarna Zaštita za sve vaše upite o protupožarnoj zaštiti. Dostupni smo telefonom, emailom ili osobno u našim prostorima.",
+    "Kontaktirajte FSB d.o.o. za sve vaše upite o protupožarnoj zaštiti. Dostupni smo telefonom, emailom ili osobno u našim prostorima.",
 };
 
 const contactInfo = [
   {
     icon: Phone,
     title: "Telefon",
-    content: "+385 1 4878 515",
-    href: "tel:+38514878515",
+    content: "+385 1 3496 811",
+    href: "tel:+38513496811",
     description: "Pon - Pet, 08:00 - 16:00",
   },
   {
     icon: Mail,
     title: "Email",
-    content: "info@fsb-protupozarna-zastita.hr",
-    href: "mailto:info@fsb-protupozarna-zastita.hr",
+    content: "info@fsb-zagreb.hr",
+    href: "mailto:info@fsb-zagreb.hr",
     description: "Odgovaramo unutar 24 sata",
   },
   {
@@ -176,11 +176,11 @@ export default function KontaktPage() {
               Za hitne situacije nazovite nas izravno. Dostupni smo za konzultacije i izvan radnog vremena.
             </p>
             <a
-              href="tel:+38514878515"
+              href="tel:+38513496811"
               className="inline-flex items-center gap-3 bg-brand-500 hover:bg-brand-600 text-white px-8 py-4 rounded-full font-semibold transition-colors"
             >
               <Phone className="h-5 w-5" />
-              <span>+385 1 4878 515</span>
+              <span>+385 1 3496 811</span>
             </a>
           </div>
         </div>

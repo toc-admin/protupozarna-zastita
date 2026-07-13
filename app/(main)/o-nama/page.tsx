@@ -9,7 +9,7 @@ import ContactCTA from "@/components/sections/ContactCTA";
 export const metadata: Metadata = {
   title: "O nama",
   description:
-    "FSB Protupožarna Zaštita - više od 30 godina iskustva u protupožarnoj zaštiti. Upoznajte naš tim i saznajte više o našim certifikatima i kvalifikacijama.",
+    "FSB d.o.o. - 20 godina iskustva u proizvodnji i izvođenju pasivne protupožarne zaštite. Upoznajte naš tim i saznajte više o našim certifikatima i kvalifikacijama.",
 };
 
 export default function ONamaPage() {
@@ -17,8 +17,8 @@ export default function ONamaPage() {
     <>
       <PageHeader
         title="O nama"
-        subtitle="FSB Protupožarna Zaštita"
-        description="Više od tri desetljeća gradimo povjerenje kroz izvrsnost u protupožarnoj zaštiti."
+        subtitle="FSB d.o.o."
+        description="Dva desetljeća gradimo povjerenje kroz izvrsnost u pasivnoj protupožarnoj zaštiti."
       />
 
       {/* Story section with image */}
@@ -29,25 +29,25 @@ export default function ONamaPage() {
               <h2 className="text-3xl font-bold text-neutral-900 mb-6">Naša priča</h2>
               <div className="space-y-4 text-neutral-600">
                 <p>
-                  FSB Protupožarna Zaštita osnovana je s ciljem pružanja vrhunskih usluga
+                  FSB d.o.o. osnovan je s ciljem pružanja vrhunskih usluga pasivne
                   protupožarne zaštite na hrvatskom tržištu. Od samog početka, naš fokus bio
                   je na kvaliteti, stručnosti i pouzdanosti.
                 </p>
                 <p>
-                  Tijekom više od 30 godina rada, realizirali smo preko 300 projekata za
-                  najzahtjevnije klijente - od zdravstvenih ustanova i poslovnih zgrada do
-                  javne infrastrukture i industrijskih objekata.
+                  Tijekom 20 godina rada realizirali smo preko 300 projekata za
+                  najzahtjevnije klijente - od stambenih zgrada i zdravstvenih ustanova do
+                  tunela i industrijskih objekata.
                 </p>
                 <p>
-                  Naš tim čine iskusni stručnjaci s dugogodišnjim iskustvom u području
-                  protupožarne zaštite. Kontinuirano se educiramo i pratimo najnovije
-                  trendove i tehnologije u industriji.
+                  Kao proizvođač vidimo širu sliku: od razvoja proizvoda u vlastitom R&D
+                  timu, preko ispitivanja i certifikacije u akreditiranim laboratorijima,
+                  do vođenja projekta i ugradnje. Proizvođač je partner, ne samo dobavljač.
                 </p>
               </div>
             </div>
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
               <Image
-                src="/images/services/izvodjenje-radova.jpg"
+                src="/images/fsb/rjesenja/parapet-1.jpg"
                 alt="FSB tim na poslu"
                 fill
                 className="object-cover"

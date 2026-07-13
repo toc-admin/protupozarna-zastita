@@ -77,13 +77,13 @@ export default function ContactCTA() {
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button
-              href="tel:+38514878515"
+              href="tel:+38513496811"
               variant="outline"
               size="lg"
               className="w-full sm:w-auto border-white/20 text-white hover:bg-white/10"
             >
               <Phone className="h-5 w-5 mr-2" />
-              +385 1 4878 515
+              +385 1 3496 811
             </Button>
           </div>
         </div>
@@ -96,7 +96,7 @@ export default function ContactCTA() {
           style={{ animationDelay: "200ms" }}
         >
           <a
-            href="tel:+38514878515"
+            href="tel:+38513496811"
             className="group flex items-center gap-5 p-6 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 hover:border-brand-500/30 transition-all"
           >
             <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-brand-500 to-brand-600 flex items-center justify-center shadow-lg shadow-brand-500/20 group-hover:scale-110 transition-transform">
@@ -104,12 +104,12 @@ export default function ContactCTA() {
             </div>
             <div>
               <p className="text-sm text-neutral-500">Nazovite nas</p>
-              <p className="text-lg font-semibold text-white">+385 1 4878 515</p>
+              <p className="text-lg font-semibold text-white">+385 1 3496 811</p>
             </div>
           </a>
 
           <a
-            href="mailto:info@fsb-protupozarna-zastita.hr"
+            href="mailto:info@fsb-zagreb.hr"
             className="group flex items-center gap-5 p-6 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 hover:border-brand-500/30 transition-all"
           >
             <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-brand-500 to-brand-600 flex items-center justify-center shadow-lg shadow-brand-500/20 group-hover:scale-110 transition-transform">
@@ -117,7 +117,7 @@ export default function ContactCTA() {
             </div>
             <div>
               <p className="text-sm text-neutral-500">Pošaljite email</p>
-              <p className="text-lg font-semibold text-white truncate">info@fsb-protupozarna-zastita.hr</p>
+              <p className="text-lg font-semibold text-white truncate">info@fsb-zagreb.hr</p>
             </div>
           </a>
         </div>

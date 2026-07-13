@@ -1,5 +1,31 @@
 # FSB Protupožarna Zaštita - Website Redesign Progress
 
+## 🆕 Srpanj 2026 — klijentove korekcije + 3 nova koncepta
+
+Nakon feedbacka klijentice (generičan dizajn + činjenične korekcije):
+
+- **Činjenice ispravljene svugdje**: FSB d.o.o. (ne "FSB Protupožarna Zaštita"), 20 godina
+  (ne 30), bez projektiranja/nadzora/laboratorija — sada: proizvodnja + R&D, izvođenje,
+  savjetovanje/optimizacija, FSB Academy (uskoro). Direktor: Stipe Barišić.
+  Kontakt: Samoborska cesta 91, info@fsb-zagreb.hr, +385 1 3496 811,
+  domena www.protupozarna-zastita.com.
+- **Rješenja** = 6 kategorija (boja, bravarija, brtvljenja, stakla, obloge, parapet);
+  **Proizvodi** koriste iste kategorije s pojedinačnim proizvodima.
+- **Projekti**: dodane kategorije (stambene zgrade, škole i vrtići, tuneli) + 3 stvarna
+  projekta s pravim fotografijama (Tunel Plasina, VMD Bužanova, Bazeni Špansko);
+  filtriranje po kategorijama sada radi (ProjectsGrid client komponenta).
+- **Prave fotografije** uvezene s vanjskog diska (scripts/import-client-images.sh →
+  public/images/fsb/), ~60 optimiziranih fotografija.
+- **Tri koncepta naslovnice** za prezentaciju klijentu (route grupa (main) + koncept rute,
+  plutajući switcher Trenutna/K1/K2/K3, noindex):
+  - `/koncept-1` — "Inženjerska preciznost": svijetli tehnički dizajn, ISO 834 krivulja
+    požara kao hero, datasheet estetika (Archivo + IBM Plex Mono)
+  - `/koncept-2` — "Industrijski karakter": tamni editorial, dron fotografija, safety
+    orange, marquee stvarnih referenci (Anton + Archivo)
+  - `/koncept-3` — "Premium partner": topli editorial/monografija, Riječ direktora kao
+    pismo (Fraunces + Figtree)
+
+
 ## ✅ Completed
 
 ### Design System

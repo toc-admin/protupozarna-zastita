@@ -1,168 +1,322 @@
 {
   "categories": [
     {
-      "slug": "protupozarno-brtvljenje",
-      "title": "Protupožarno brtvljenje",
-      "description": "Proizvodi za brtvljenje prodora kabela, cijevi i drugih instalacija kroz protupožarne pregrade.",
-      "image": "/images/products/categories/brtvljenje.jpg"
+      "slug": "protupozarna-boja",
+      "title": "Protupožarna boja",
+      "description": "Intumescentni premazi i boje za zaštitu čeličnih konstrukcija od požara.",
+      "image": "/images/fsb/rjesenja/boja-1.jpg"
     },
     {
-      "slug": "protupozarna-boja-i-premaz",
-      "title": "Protupožarna boja i premaz",
-      "description": "Intumescentni premazi i boje za zaštitu čeličnih i drvenih konstrukcija od požara.",
-      "image": "/images/products/categories/boja.jpg"
+      "slug": "protupozarna-bravarija",
+      "title": "Protupožarna bravarija",
+      "description": "Protupožarna vrata, stijene i revizijski otvori iz vlastite FSB proizvodnje.",
+      "image": "/images/fsb/rjesenja/bravarija-1.jpg"
     },
     {
-      "slug": "protupozarne-ploce",
-      "title": "Protupožarne ploče",
-      "description": "Vatrooporne ploče za oblaganje konstrukcija i izradu protupožarnih pregrada.",
-      "image": "/images/products/categories/ploce.jpg"
-    },
-    {
-      "slug": "protupozarni-moduli",
-      "title": "Protupožarni moduli",
-      "description": "Modularni sustavi za brtvljenje složenih prodora s više vrsta instalacija.",
-      "image": "/images/products/categories/moduli.jpg"
+      "slug": "protupozarna-brtvljenja",
+      "title": "Protupožarna brtvljenja",
+      "description": "Proizvodi za brtvljenje prodora kabela, cijevi i drugih instalacija kroz požarne pregrade.",
+      "image": "/images/fsb/rjesenja/brtvljenja-1.jpg"
     },
     {
       "slug": "protupozarna-stakla",
       "title": "Protupožarna stakla",
-      "description": "Vatrootporna stakla za protupožarne stijene, vrata i prozore.",
-      "image": "/images/products/categories/stakla.jpg"
+      "description": "Vatrootporna stakla za protupožarne stijene, vrata i ostakljenja.",
+      "image": "/images/fsb/rjesenja/stakla-1.jpg"
     },
     {
-      "slug": "protupozarna-vuna",
-      "title": "Protupožarna vuna",
-      "description": "Mineralna vuna za toplinsku izolaciju i protupožarnu zaštitu.",
-      "image": "/images/products/categories/vuna.jpg"
+      "slug": "protupozarne-obloge",
+      "title": "Protupožarne obloge",
+      "description": "Kalcij-silikatne ploče za oblaganje konstrukcija, kanala i izradu požarnih pregrada.",
+      "image": "/images/fsb/rjesenja/obloge-1.jpg"
     },
     {
-      "slug": "silikatne-ploce-za-kamine",
-      "title": "Silikatne ploče za kamine",
-      "description": "Specijalizirane ploče za ugradnju i zaštitu kamina i peći.",
-      "image": "/images/products/categories/silikatne.jpg"
+      "slug": "protupozarni-parapet",
+      "title": "Protupožarni parapet",
+      "description": "FSB sustav požarnog razdvajanja etaža na fasadi.",
+      "image": "/images/fsb/rjesenja/parapet-1.jpg"
     }
   ],
   "products": [
     {
-      "slug": "promat-unicable",
-      "category": "protupozarno-brtvljenje",
-      "title": "PROMAT UNICABLE",
+      "slug": "promapaint-sc3",
+      "category": "protupozarna-boja",
+      "title": "PROMAPAINT-SC3",
       "manufacturer": "Promat",
-      "description": "Univerzalni sustav za brtvljenje kablovskih prodora",
-      "fullDescription": "PROMAT UNICABLE je inovativni sustav za brtvljenje kablovskih prodora koji omogućuje jednostavnu ugradnju i naknadne izmjene. Sustav pruža otpornost na požar do 120 minuta i certificiran je prema EN 1366-3.\n\nPrednosti:\n- Jednostavna ugradnja\n- Mogućnost naknadnog dodavanja kabela\n- Estetski izgled\n- Dugi vijek trajanja",
+      "description": "Intumescentni premaz na vodenoj bazi za zaštitu čeličnih konstrukcija",
+      "fullDescription": "PROMAPAINT-SC3 je intumescentni premaz na vodenoj bazi za protupožarnu zaštitu čeličnih konstrukcija. U slučaju požara premaz ekspandira i stvara izolacijski sloj koji usporava zagrijavanje čelika i čuva nosivost konstrukcije.\n\nPrednosti:\n- Tanki slojevi aplikacije\n- Primjena u interijeru\n- Strojna (airless) ili ručna aplikacija\n- Mogućnost završnog dekorativnog premaza",
       "specifications": {
-        "fireResistance": "EI 120",
-        "standard": "EN 1366-3",
-        "sizes": "Različite dimenzije prema potrebi"
-      },
-      "image": "/images/products/promat-unicable.jpg",
-      "datasheet": "/documents/promat-unicable.pdf"
-    },
-    {
-      "slug": "promat-collar",
-      "category": "protupozarno-brtvljenje",
-      "title": "PROMAT COLLAR",
-      "manufacturer": "Promat",
-      "description": "Protupožarna obujmica za plastične cijevi",
-      "fullDescription": "PROMAT COLLAR je protupožarna obujmica dizajnirana za brtvljenje prodora plastičnih cijevi. U slučaju požara, intumescentni materijal ekspandira i zatvara otvor nastao taljenjem plastične cijevi.\n\nKarakteristike:\n- Za plastične cijevi do Ø160mm\n- Jednostavna montaža\n- Otpornost na požar EI 120\n- Certificiran prema EN 1366-3",
-      "specifications": {
-        "fireResistance": "EI 120",
-        "standard": "EN 1366-3",
-        "sizes": "Ø32 - Ø160 mm"
-      },
-      "image": "/images/products/promat-collar.jpg",
-      "datasheet": "/documents/promat-collar.pdf"
-    },
-    {
-      "slug": "hensel-firesafe",
-      "category": "protupozarna-boja-i-premaz",
-      "title": "Rudolf Hensel FIRESAFE",
-      "manufacturer": "Rudolf Hensel",
-      "description": "Intumescentni premaz za čelične konstrukcije",
-      "fullDescription": "Rudolf Hensel FIRESAFE je vrhunski intumescentni premaz za zaštitu čeličnih konstrukcija od požara. Premaz ekspandira pri povišenoj temperaturi stvarajući izolacijski sloj koji štiti čelik.\n\nPrednosti:\n- Otpornost na požar do R 120\n- Tanki sloj aplikacije\n- Različite završne boje\n- Certificiran prema EN 13381-8",
-      "specifications": {
-        "fireResistance": "R 30 - R 120",
+        "fireResistance": "R 30 – R 120",
         "standard": "EN 13381-8",
-        "coverage": "Ovisno o profilu i zahtijevanoj otpornosti"
+        "packaging": "Kanta 25 kg"
       },
-      "image": "/images/products/hensel-firesafe.jpg",
-      "datasheet": "/documents/hensel-firesafe.pdf"
+      "image": "/images/fsb/proizvodi/promapaint-sc3.jpg"
     },
     {
-      "slug": "promat-board",
-      "category": "protupozarne-ploce",
+      "slug": "promapaint-sc4",
+      "category": "protupozarna-boja",
+      "title": "PROMAPAINT-SC4",
+      "manufacturer": "Promat",
+      "description": "Intumescentni premaz za čelične konstrukcije s poboljšanim performansama",
+      "fullDescription": "PROMAPAINT-SC4 je intumescentni premaz na vodenoj bazi namijenjen zaštiti otvorenih i zatvorenih čeličnih profila. Odlikuje ga učinkovita potrošnja i pouzdane performanse potvrđene europskim ispitivanjima.\n\nPrednosti:\n- Učinkovita potrošnja po m²\n- Za otvorene i zatvorene profile\n- Brzo sušenje između slojeva\n- Kompatibilan sa standardnim temeljnim premazima",
+      "specifications": {
+        "fireResistance": "R 30 – R 120",
+        "standard": "EN 13381-8",
+        "packaging": "Kanta 25 kg"
+      },
+      "image": "/images/fsb/proizvodi/promapaint-sc4.jpg"
+    },
+    {
+      "slug": "hensoterm-410ks",
+      "category": "protupozarna-boja",
+      "title": "HENSOTHERM 410 KS",
+      "manufacturer": "Rudolf Hensel",
+      "description": "Intumescentni premaz za čelik — unutarnja primjena",
+      "fullDescription": "HENSOTHERM 410 KS njemački je intumescentni premaz za protupožarnu zaštitu čeličnih konstrukcija u unutarnjim prostorima. Dio je cjelovitog Hensel sustava temeljnih i završnih premaza.\n\nPrednosti:\n- Pouzdan sustav njemačkog proizvođača\n- Ekonomična zaštita R 30 – R 60\n- Jednostavna kontrola debljine filma\n- Dugogodišnje reference u primjeni",
+      "specifications": {
+        "fireResistance": "R 30 – R 60",
+        "standard": "EN 13381-8",
+        "packaging": "Kanta 25 kg"
+      },
+      "image": "/images/fsb/proizvodi/hensoterm-410ks.jpg"
+    },
+    {
+      "slug": "hensoterm-421ks",
+      "category": "protupozarna-boja",
+      "title": "HENSOTHERM 421 KS",
+      "manufacturer": "Rudolf Hensel",
+      "description": "Intumescentni premaz za čelik s visokom učinkovitošću",
+      "fullDescription": "HENSOTHERM 421 KS intumescentni je premaz za zaštitu čeličnih konstrukcija u unutarnjim prostorima, namijenjen pozicijama gdje se traži optimalan omjer debljine sloja i postignute otpornosti.\n\nPrednosti:\n- Visoka učinkovitost po sloju\n- Unutarnja primjena\n- Dio certificiranog Hensel sustava\n- Pogodan za vidljive konstrukcije",
+      "specifications": {
+        "fireResistance": "R 30 – R 60",
+        "standard": "EN 13381-8",
+        "packaging": "Kanta 25 kg"
+      },
+      "image": "/images/fsb/proizvodi/hensoterm-421ks.jpg"
+    },
+    {
+      "slug": "hensomastik-5ks",
+      "category": "protupozarna-brtvljenja",
+      "title": "HENSOMASTIK 5 KS",
+      "manufacturer": "Rudolf Hensel",
+      "description": "Protupožarna prevlaka i brtvena masa za kabele i brtvljenja",
+      "fullDescription": "HENSOMASTIK 5 KS protupožarna je prevlaka za kabele i sastavni dio sustava mekih brtvljenja (kamena vuna + prevlaka). Nanosi se na kablovske trase i rubove brtvljenja radi sprječavanja širenja požara.\n\nPrednosti:\n- Za meka brtvljenja i kablovske prevlake\n- Elastična nakon sušenja\n- Nanošenje kistom ili prskanjem\n- Certificirani dio Hensel sustava brtvljenja",
+      "specifications": {
+        "fireResistance": "EI 90 – EI 120 (u sustavu)",
+        "standard": "EN 1366-3",
+        "packaging": "Kanta 12,5 kg"
+      },
+      "image": "/images/fsb/proizvodi/hensomastik-5ks.jpg"
+    },
+    {
+      "slug": "promastop-fc",
+      "category": "protupozarna-brtvljenja",
+      "title": "PROMASTOP-FC",
+      "manufacturer": "Promat",
+      "description": "Protupožarna obujmica za gorive cijevi",
+      "fullDescription": "PROMASTOP-FC protupožarna je obujmica za brtvljenje prodora gorivih (plastičnih) cijevi. U požaru intumescentni umetak ekspandira i zatvara otvor nastao taljenjem cijevi.\n\nPrednosti:\n- Brza i jednostavna montaža\n- Za zidove i stropove\n- Širok raspon promjera cijevi\n- Certificirana prema EN 1366-3",
+      "specifications": {
+        "fireResistance": "EI 120",
+        "standard": "EN 1366-3",
+        "sizes": "Ø 50 – Ø 250 mm"
+      },
+      "image": "/images/fsb/proizvodi/promastop-fc.jpg"
+    },
+    {
+      "slug": "promastop-u",
+      "category": "protupozarna-brtvljenja",
+      "title": "PROMASTOP-U UniCollar",
+      "manufacturer": "Promat",
+      "description": "Univerzalna protupožarna obujmica u traci — režete koliko trebate",
+      "fullDescription": "PROMASTOP-U UniCollar univerzalna je protupožarna obujmica u obliku trake koja se na gradilištu reže na potrebnu duljinu, čime jedan proizvod pokriva sve promjere cijevi.\n\nPrednosti:\n- Jedan proizvod za sve promjere\n- Bez otpada — reže se po potrebi\n- Brza montaža čeličnim kopčama\n- Idealna za servisne i naknadne radove",
+      "specifications": {
+        "fireResistance": "EI 120",
+        "standard": "EN 1366-3",
+        "sizes": "Traka L = 2190 mm"
+      },
+      "image": "/images/fsb/proizvodi/promastop-u.jpg"
+    },
+    {
+      "slug": "promaseal-a",
+      "category": "protupozarna-brtvljenja",
+      "title": "PROMASEAL-A",
+      "manufacturer": "Promat",
+      "description": "Protupožarna brtvena masa za reške i manje prodore",
+      "fullDescription": "PROMASEAL-A akrilna je protupožarna brtvena masa za brtvljenje reški, spojeva i manjih prodora instalacija. Nakon sušenja ostaje trajno elastična i može se bojati.\n\nPrednosti:\n- Jednostavna primjena kartušom\n- Trajno elastična\n- Može se bojati\n- Za reške u zidovima i stropovima",
+      "specifications": {
+        "fireResistance": "EI 60 – EI 120",
+        "standard": "EN 1366-4",
+        "packaging": "Kartuša 310 ml"
+      },
+      "image": "/images/fsb/proizvodi/promaseal-a.jpg"
+    },
+    {
+      "slug": "promastop-cc",
+      "category": "protupozarna-brtvljenja",
+      "title": "PROMASTOP-CC",
+      "manufacturer": "Promat",
+      "description": "Protupožarna prevlaka za kabele i kablovske police",
+      "fullDescription": "PROMASTOP-CC protupožarna je prevlaka koja se nanosi na kabele i kablovske police radi sprječavanja širenja požara duž kablovskih trasa i kroz brtvljenja.\n\nPrednosti:\n- Smanjuje gorivost kabela\n- Dio sustava mekog brtvljenja\n- Nanošenje kistom ili prskanjem\n- Bijela boja za laku vizualnu kontrolu",
+      "specifications": {
+        "fireResistance": "EI 90 – EI 120 (u sustavu)",
+        "standard": "EN 1366-3",
+        "packaging": "Kanta 12,5 kg"
+      },
+      "image": "/images/fsb/proizvodi/promastop-cc.jpg"
+    },
+    {
+      "slug": "promastop-l",
+      "category": "protupozarna-brtvljenja",
+      "title": "PROMASTOP-L",
+      "manufacturer": "Promat",
+      "description": "Protupožarni jastuk za privremena i trajna brtvljenja",
+      "fullDescription": "PROMASTOP-L protupožarni je jastuk za brtvljenje prodora kabela i rezervnih otvora. Idealan je za pozicije s čestim izmjenama instalacija jer omogućuje jednostavno vađenje i vraćanje.\n\nPrednosti:\n- Suha ugradnja bez alata\n- Višekratna upotreba\n- Idealan za serverske i tehničke prostore\n- Brza intervencija kod izmjena",
+      "specifications": {
+        "fireResistance": "EI 90 – EI 120",
+        "standard": "EN 1366-3",
+        "sizes": "Veliki jastuk"
+      },
+      "image": "/images/fsb/proizvodi/promastop-l.jpg"
+    },
+    {
+      "slug": "promafoam-c",
+      "category": "protupozarna-brtvljenja",
+      "title": "PROMAFOAM-C",
+      "manufacturer": "Promat",
+      "description": "Protupožarna montažna pjena",
+      "fullDescription": "PROMAFOAM-C protupožarna je poliuretanska pjena za brtvljenje reški i spojeva, primjerice oko protupožarnih vrata i prozora te manjih otvora u požarnim pregradama.\n\nPrednosti:\n- Primjena pištoljem za pjenu\n- Brzo ekspandira i očvršćuje\n- Dobra toplinska i zvučna izolacija\n- Za montažu protupožarne bravarije",
+      "specifications": {
+        "fireResistance": "EI 60 – EI 120 (ovisno o reški)",
+        "standard": "EN 1366-4",
+        "packaging": "Boca 750 ml"
+      },
+      "image": "/images/fsb/proizvodi/promafoam-c.jpg"
+    },
+    {
+      "slug": "k84-ljepilo",
+      "category": "protupozarne-obloge",
+      "title": "PROMAT K84",
+      "manufacturer": "Promat",
+      "description": "Protupožarno ljepilo za kalcij-silikatne ploče",
+      "fullDescription": "PROMAT K84 protupožarno je ljepilo namijenjeno spajanju i brtvljenju spojeva kalcij-silikatnih ploča u sustavima protupožarnih obloga.\n\nPrednosti:\n- Certificirani dio Promat sustava obloga\n- Visoka temperaturna postojanost\n- Jednostavna primjena\n- Za spojeve, sljubnice i reparature",
+      "specifications": {
+        "temperatureResistance": "Do 1000 °C",
+        "standard": "Dio sustava EN 13381-4",
+        "packaging": "Kanta 15 kg / šlauh 1 kg"
+      },
+      "image": "/images/fsb/proizvodi/k84-ljepilo.jpg"
+    },
+    {
+      "slug": "promatect-h",
+      "category": "protupozarne-obloge",
       "title": "PROMATECT-H",
       "manufacturer": "Promat",
-      "description": "Kalcij-silikatna ploča za protupožarnu zaštitu",
-      "fullDescription": "PROMATECT-H je visokoučinkovita kalcij-silikatna ploča za zaštitu konstrukcija i izradu protupožarnih pregrada. Ploča je stabilna, lagana i jednostavna za obradu.\n\nPrimjene:\n- Oblaganje čeličnih konstrukcija\n- Izrada protupožarnih pregrada\n- Zaštita kablovskih trasa\n- Obloge u tunelima",
+      "description": "Kalcij-silikatna ploča za najzahtjevnije obloge",
+      "fullDescription": "PROMATECT-H visokoučinkovita je kalcij-silikatna ploča otporna na vlagu, namijenjena zaštiti konstrukcija i izradi požarnih pregrada u najzahtjevnijim uvjetima — uključujući tunele i vanjske primjene.\n\nPrimjene:\n- Oblaganje čeličnih konstrukcija (do R 240)\n- Obloge u tunelima i infrastrukturi\n- Kanali za odvod dima\n- Samostojeće požarne pregrade",
       "specifications": {
         "fireResistance": "Do R 240",
         "standard": "EN 13501-2",
-        "thickness": "6 - 60 mm"
+        "thickness": "6 – 60 mm"
       },
-      "image": "/images/products/promatect-h.jpg",
-      "datasheet": "/documents/promatect-h.pdf"
+      "image": "/images/fsb/proizvodi/promatect-h.jpg"
     },
     {
-      "slug": "promat-modular",
-      "category": "protupozarni-moduli",
-      "title": "PROMAT MODULAR",
+      "slug": "promatect-100",
+      "category": "protupozarne-obloge",
+      "title": "PROMATECT-100",
       "manufacturer": "Promat",
-      "description": "Modularni sustav za brtvljenje složenih prodora",
-      "fullDescription": "PROMAT MODULAR je fleksibilan modularni sustav za brtvljenje složenih prodora s različitim vrstama instalacija. Sustav omogućuje kombiniranje kabela, cijevi i kanalica u jednom prodoru.\n\nKarakteristike:\n- Fleksibilna konfiguracija\n- Za sve vrste instalacija\n- Jednostavne naknadne izmjene\n- Otpornost na požar EI 120",
+      "description": "Lagana ploča za obloge i pregrade u interijeru",
+      "fullDescription": "PROMATECT-100 lagana je protupožarna ploča za unutarnje primjene — obloge konstrukcija, zidne pregrade i stropne membrane. Jednostavna je za obradu standardnim alatom.\n\nPrimjene:\n- Požarne pregrade i obloge zidova\n- Stropne membrane\n- Zaštita čeličnih konstrukcija\n- Obloge instalacijskih okana",
       "specifications": {
-        "fireResistance": "EI 120",
-        "standard": "EN 1366-3",
-        "configuration": "Modularna - prilagodljiva"
+        "fireResistance": "EI 30 – EI 120",
+        "standard": "EN 13501-2",
+        "thickness": "8 – 50 mm"
       },
-      "image": "/images/products/promat-modular.jpg",
-      "datasheet": "/documents/promat-modular.pdf"
+      "image": "/images/fsb/proizvodi/promatect-100.jpg"
     },
     {
-      "slug": "promat-systemglas",
+      "slug": "promatect-200",
+      "category": "protupozarne-obloge",
+      "title": "PROMATECT-200",
+      "manufacturer": "Promat",
+      "description": "Kalcij-silikatna ploča za zaštitu čeličnih konstrukcija",
+      "fullDescription": "PROMATECT-200 kalcij-silikatna je ploča optimizirana za suhomontažnu zaštitu čeličnih stupova i greda, s izvrsnim omjerom debljine, težine i postignute otpornosti.\n\nPrimjene:\n- Kutijaste obloge stupova i greda\n- Požarne pregrade\n- Zaštita spregnutih konstrukcija\n- Glatka površina spremna za završnu obradu",
+      "specifications": {
+        "fireResistance": "R 30 – R 180",
+        "standard": "EN 13381-4",
+        "thickness": "15 – 52 mm"
+      },
+      "image": "/images/fsb/proizvodi/promatect-200.jpg"
+    },
+    {
+      "slug": "masterboard",
+      "category": "protupozarne-obloge",
+      "title": "MASTERBOARD",
+      "manufacturer": "Promat",
+      "description": "Univerzalna vatrootporna građevinska ploča",
+      "fullDescription": "MASTERBOARD univerzalna je negoriva građevinska ploča za širok raspon primjena u protupožarnoj zaštiti i suhoj gradnji, uključujući prostore s povišenom vlagom.\n\nPrimjene:\n- Obloge zidova i stropova\n- Podloge za završne obloge\n- Zaštita drvenih i čeličnih elemenata\n- Negoriva alternativa gips-kartonskim pločama",
+      "specifications": {
+        "reaction": "A1 (negorivo)",
+        "standard": "EN 13501-1",
+        "thickness": "6 – 12 mm"
+      },
+      "image": "/images/fsb/proizvodi/masterboard.jpg"
+    },
+    {
+      "slug": "fsb-vrata-jednokrilna",
+      "category": "protupozarna-bravarija",
+      "title": "FSB jednokrilna protupožarna vrata",
+      "manufacturer": "FSB",
+      "description": "Čelična jednokrilna protupožarna vrata iz vlastite proizvodnje",
+      "fullDescription": "Jednokrilna protupožarna vrata iz vlastite FSB proizvodnje — razvijena u našem R&D timu, ispitana u akreditiranim laboratorijima i certificirana prema europskim normama.\n\nKarakteristike:\n- Čelična konstrukcija s protupožarnom ispunom\n- Otpornost EI₂ 30 – EI₂ 90\n- Standardne i posebne dimenzije po mjeri\n- Opcije: samozatvarač, panik okov, ostakljenje, dimne brtve\n\nKao proizvođač nudimo kratke rokove isporuke, prilagodbu projektu i ugradnju vlastitim ekipama.",
+      "specifications": {
+        "fireResistance": "EI₂ 30 – EI₂ 90",
+        "standard": "EN 16034 / EN 1634-1",
+        "sizes": "Standardne i po mjeri"
+      },
+      "image": "/images/fsb/proizvodi/fsb-vrata-jednokrilna.jpg"
+    },
+    {
+      "slug": "fsb-vrata-dvokrilna",
+      "category": "protupozarna-bravarija",
+      "title": "FSB dvokrilna protupožarna vrata",
+      "manufacturer": "FSB",
+      "description": "Čelična dvokrilna protupožarna vrata za veće otvore",
+      "fullDescription": "Dvokrilna protupožarna vrata iz vlastite FSB proizvodnje namijenjena većim otvorima — tehničkim prostorima, industrijskim halama, garažama i evakuacijskim putevima.\n\nKarakteristike:\n- Čelična konstrukcija velike krutosti\n- Otpornost EI₂ 30 – EI₂ 90\n- Regulator redoslijeda zatvaranja\n- Opcije: panik okovi, ostakljenje, elektroprihvatnici\n\nVrata su ispitana vatrootpornošću u akreditiranim laboratorijima, uključujući ispitivanje dvokrilne izvedbe.",
+      "specifications": {
+        "fireResistance": "EI₂ 30 – EI₂ 90",
+        "standard": "EN 16034 / EN 1634-1",
+        "sizes": "Do velikih formata, po mjeri"
+      },
+      "image": "/images/fsb/proizvodi/fsb-vrata-dvokrilna.jpg"
+    },
+    {
+      "slug": "fsb-protupozarno-staklo",
       "category": "protupozarna-stakla",
-      "title": "PROMAT SYSTEMGLAS",
-      "manufacturer": "Promat",
-      "description": "Protupožarno staklo za stijene i vrata",
-      "fullDescription": "PROMAT SYSTEMGLAS je protupožarno staklo namijenjeno ugradnji u protupožarne stijene i vrata. Pruža transparentnost i sigurnost u jednom.\n\nKarakteristike:\n- Otpornost na požar EI 30 - EI 120\n- Visoka transparentnost\n- UV stabilnost\n- Certificirano prema EN 1364",
+      "title": "FSB protupožarne staklene stijene",
+      "manufacturer": "FSB",
+      "description": "Sustavi protupožarnih staklenih stijena i ostakljenja",
+      "fullDescription": "FSB sustavi protupožarnih staklenih stijena kombiniraju čelične ili aluminijske profile s certificiranim vatrootpornim staklima, za pozicije gdje se traži transparentnost uz punu požarnu otpornost.\n\nKarakteristike:\n- Stijene i ostakljenja EI 30 – EI 90\n- Kombinacija s FSB protupožarnim vratima\n- Velike staklene plohe u atrijima i hodnicima\n- Projektiranje detalja, isporuka i ugradnja iz jedne ruke",
       "specifications": {
-        "fireResistance": "EI 30 - EI 120",
+        "fireResistance": "EI 30 – EI 90",
         "standard": "EN 1364-1",
-        "thickness": "15 - 43 mm"
+        "sizes": "Prema projektu"
       },
-      "image": "/images/products/promat-systemglas.jpg",
-      "datasheet": "/documents/promat-systemglas.pdf"
+      "image": "/images/fsb/proizvodi/fsb-staklo.jpg"
     },
     {
-      "slug": "promat-wool",
-      "category": "protupozarna-vuna",
-      "title": "PROMAT kamena vuna",
-      "manufacturer": "Promat",
-      "description": "Kamena vuna za protupožarnu izolaciju",
-      "fullDescription": "PROMAT kamena vuna je visokokvalitetna mineralna vuna za protupožarnu i toplinsku izolaciju. Idealna za primjenu u brtvljenjima, oblogama i protupožarnim pregradama.\n\nKarakteristike:\n- Točka taljenja >1000°C\n- Izvrsna toplinska izolacija\n- Zvučna izolacija\n- Nekombustibilan materijal",
+      "slug": "fsb-protupozarni-parapet",
+      "category": "protupozarni-parapet",
+      "title": "FSB protupožarni parapet",
+      "manufacturer": "FSB",
+      "description": "Vlastito razvijeni sustav požarnog razdvajanja etaža na fasadi",
+      "fullDescription": "FSB protupožarni parapet vlastito je razvijeno rješenje za sprječavanje vertikalnog širenja požara preko fasade. Sustav podkonstrukcije, kamene vune i protupožarnih ploča prilagođava se svakoj fasadnoj geometriji.\n\nKarakteristike:\n- Razvijen u FSB R&D timu\n- Ispitan u akreditiranim laboratorijima\n- Prilagodba geometriji fasade\n- Isporuka i ugradnja vlastitim ekipama",
       "specifications": {
-        "meltingPoint": ">1000°C",
-        "standard": "EN 13501-1: A1",
-        "density": "40 - 150 kg/m³"
+        "fireResistance": "EI 30 – EI 90",
+        "standard": "EN 1364-4",
+        "sizes": "Prema projektu fasade"
       },
-      "image": "/images/products/promat-wool.jpg",
-      "datasheet": "/documents/promat-wool.pdf"
-    },
-    {
-      "slug": "silca-kaminske-ploce",
-      "category": "silikatne-ploce-za-kamine",
-      "title": "SILCA kaminske ploče",
-      "manufacturer": "SILCA",
-      "description": "Silikatne ploče za ugradnju kamina",
-      "fullDescription": "SILCA kaminske ploče su specijalizirane kalcij-silikatne ploče namijenjene za sigurnu ugradnju kamina i peći. Pružaju potrebnu toplinsku izolaciju i vatrootpornost.\n\nPrimjene:\n- Izolacija iza kamina\n- Podloge za peći\n- Zaštita građevinskih elemenata\n- Dekorativne obloge",
-      "specifications": {
-        "maxTemperature": "1100°C",
-        "standard": "EN 13501-1: A1",
-        "thickness": "25 - 50 mm"
-      },
-      "image": "/images/products/silca-ploce.jpg",
-      "datasheet": "/documents/silca-ploce.pdf"
+      "image": "/images/fsb/proizvodi/fsb-parapet.jpg"
     }
   ]
 }

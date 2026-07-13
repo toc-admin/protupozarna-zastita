@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 
-const BASE_URL = "https://fsb-protupozarna-zastita.hr";
+const BASE_URL = "https://www.protupozarna-zastita.com";
 
 interface PageMetadata {
   title: string;
@@ -24,7 +24,7 @@ export function generatePageMetadata({
       title,
       description,
       url,
-      siteName: "FSB Protupožarna Zaštita",
+      siteName: "FSB d.o.o.",
       images: [
         {
           url: `${BASE_URL}${image}`,
@@ -53,23 +53,23 @@ export function generateLocalBusinessSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: "FSB Protupožarna Zaštita",
+    name: "FSB d.o.o.",
     description:
-      "Više od 30 godina iskustva u projektiranju, izvođenju i nadzoru protupožarne zaštite.",
+      "Proizvođač i izvođač pasivne protupožarne zaštite s 20 godina iskustva.",
     url: BASE_URL,
-    telephone: "+385 1 4878 515",
-    email: "info@fsb-protupozarna-zastita.hr",
+    telephone: "+385 1 3496 811",
+    email: "info@fsb-zagreb.hr",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Ivana Lučića 5",
+      streetAddress: "Samoborska cesta 91",
       addressLocality: "Zagreb",
       postalCode: "10000",
       addressCountry: "HR",
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: 45.8018,
-      longitude: 15.9710,
+      latitude: 45.7994,
+      longitude: 15.8756,
     },
     openingHoursSpecification: [
       {
@@ -114,7 +114,7 @@ export function generateProductSchema(product: {
       priceCurrency: "EUR",
       seller: {
         "@type": "Organization",
-        name: "FSB Protupožarna Zaštita",
+        name: "FSB d.o.o.",
       },
     },
   };
@@ -133,10 +133,10 @@ export function generateServiceSchema(service: {
     url: `${BASE_URL}/usluge/${service.slug}`,
     provider: {
       "@type": "LocalBusiness",
-      name: "FSB Protupožarna Zaštita",
+      name: "FSB d.o.o.",
       address: {
         "@type": "PostalAddress",
-        streetAddress: "Ivana Lučića 5",
+        streetAddress: "Samoborska cesta 91",
         addressLocality: "Zagreb",
         postalCode: "10000",
         addressCountry: "HR",

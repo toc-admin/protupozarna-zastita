@@ -9,7 +9,7 @@ import { getAllServices } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Usluge",
   description:
-    "FSB Protupožarna Zaštita nudi kompletan spektar usluga - izvođenje radova, optimizacija troškova, edukacija i laboratorijsko ispitivanje.",
+    "FSB d.o.o. nudi kompletan spektar usluga - izvođenje radova, savjetovanje i optimizacija troškova, razvoj i proizvodnja te FSB Academy.",
 };
 
 export default function UslugePage() {
@@ -20,7 +20,7 @@ export default function UslugePage() {
       <PageHeader
         title="Naše usluge"
         subtitle="Što nudimo"
-        description="Kompletan spektar usluga protupožarne zaštite - od projektiranja do izvođenja, edukacije i ispitivanja."
+        description="Kompletan spektar usluga pasivne protupožarne zaštite - od razvoja i proizvodnje do savjetovanja i izvođenja."
       />
 
       <section className="py-20 md:py-28 bg-white">

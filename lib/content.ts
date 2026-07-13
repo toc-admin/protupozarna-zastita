@@ -144,8 +144,8 @@ export function getProjectSlugs(): string[] {
 }
 
 export function getProjectCategories(): string[] {
-  const categories = projektiData.projects.map((project) => project.category);
-  return [...new Set(categories)];
+  const derived = projektiData.projects.map((project) => project.category);
+  return [...new Set([...projektiData.categories, ...derived])];
 }
 
 // Products

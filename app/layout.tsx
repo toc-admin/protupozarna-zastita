@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/layout/Header";
-import Footer from "@/components/layout/Footer";
 import StructuredData from "@/components/StructuredData";
 
 const inter = Inter({
@@ -13,35 +11,36 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "FSB Protupožarna Zaštita | Stručnjaci za protupožarnu zaštitu",
-    template: "%s | FSB Protupožarna Zaštita",
+    default: "FSB d.o.o. | Stručnjaci za protupožarnu zaštitu",
+    template: "%s | FSB d.o.o.",
   },
   description:
-    "FSB Protupožarna Zaštita - više od 30 godina iskustva u protupožarnoj zaštiti. Izvođenje radova, optimizacija troškova, edukacija i laboratorijsko ispitivanje.",
+    "FSB d.o.o. - proizvođač i izvođač pasivne protupožarne zaštite s 20 godina iskustva. Izvođenje radova, savjetovanje i optimizacija troškova, razvoj i proizvodnja.",
   keywords: [
     "protupožarna zaštita",
     "protupožarno brtvljenje",
     "protupožarna boja",
-    "protupožarne ploče",
+    "protupožarna bravarija",
+    "protupožarna vrata",
     "FSB",
     "Hrvatska",
     "Zagreb",
   ],
-  authors: [{ name: "FSB Protupožarna Zaštita" }],
-  creator: "FSB Protupožarna Zaštita",
-  metadataBase: new URL("https://fsb-protupozarna-zastita.hr"),
+  authors: [{ name: "FSB d.o.o." }],
+  creator: "FSB d.o.o.",
+  metadataBase: new URL("https://www.protupozarna-zastita.com"),
   openGraph: {
     type: "website",
     locale: "hr_HR",
-    siteName: "FSB Protupožarna Zaštita",
-    title: "FSB Protupožarna Zaštita | Stručnjaci za protupožarnu zaštitu",
+    siteName: "FSB d.o.o.",
+    title: "FSB d.o.o. | Stručnjaci za protupožarnu zaštitu",
     description:
-      "Više od 30 godina iskustva u protupožarnoj zaštiti. Izvođenje radova, optimizacija troškova, edukacija i laboratorijsko ispitivanje.",
+      "Proizvođač i izvođač pasivne protupožarne zaštite s 20 godina iskustva. Izvođenje radova, savjetovanje i optimizacija troškova, razvoj i proizvodnja.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "FSB Protupožarna Zaštita",
-    description: "Stručnjaci za protupožarnu zaštitu s više od 30 godina iskustva",
+    title: "FSB d.o.o.",
+    description: "Stručnjaci za protupožarnu zaštitu s 20 godina iskustva",
   },
   robots: {
     index: true,
@@ -69,11 +68,7 @@ export default function RootLayout({
       <head>
         <StructuredData />
       </head>
-      <body className="min-h-full flex flex-col">
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
-      </body>
+      <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
 }

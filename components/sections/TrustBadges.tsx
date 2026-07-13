@@ -6,7 +6,7 @@ import { Shield, Award, Clock, Users, CheckCircle, Zap } from "lucide-react";
 const badges = [
   {
     icon: Shield,
-    title: "30+ godina",
+    title: "20 godina",
     description: "Iskustva u industriji",
   },
   {

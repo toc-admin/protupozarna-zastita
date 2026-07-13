@@ -7,7 +7,7 @@ import {
   getAllProducts,
 } from "@/lib/content";
 
-const BASE_URL = "https://fsb-protupozarna-zastita.hr";
+const BASE_URL = "https://www.protupozarna-zastita.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();

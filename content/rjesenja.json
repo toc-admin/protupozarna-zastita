@@ -1,82 +1,82 @@
 {
   "solutions": [
     {
-      "slug": "fsg-s",
-      "title": "FSG-S",
-      "description": "Sustav za protupožarno brtvljenje kablovskih prodora",
-      "fullDescription": "FSG-S je inovativni sustav za protupožarno brtvljenje kablovskih prodora koji pruža izvrsnu otpornost na požar do 120 minuta. Sustav je certificiran prema europskim normama i idealan je za primjenu u svim vrstama objekata.\n\nKarakteristike sustava:\n\n- Otpornost na požar: EI 120\n- Jednostavna ugradnja\n- Mogućnost naknadnog dodavanja kabela\n- Certificiran prema EN 1366-3",
-      "image": "/images/solutions/fsg-s.jpg",
+      "slug": "protupozarna-boja",
+      "title": "Protupožarna boja",
+      "description": "Intumescentni premazi za zaštitu čeličnih konstrukcija — nevidljiva zaštita koja u požaru ekspandira i štiti nosivost.",
+      "fullDescription": "Protupožarne boje i premazi najelegantniji su način zaštite čeličnih konstrukcija. U normalnim uvjetima izgledaju kao običan završni premaz, a u slučaju požara ekspandiraju i stvaraju izolacijski sloj koji čelik štiti od gubitka nosivosti.\n\nNaše usluge uključuju:\n\n- Odabir odgovarajućeg sustava premaza prema zahtijevanoj otpornosti (R 30 – R 120)\n- Strojnu aplikaciju premaza (airless)\n- Kontrolu debljine suhog filma i zapisnike o izvedbi\n- Završne dekorativne premaze u željenoj boji\n\nRadimo s provjerenim sustavima proizvođača Promat i Rudolf Hensel, a izvedbu prilagođavamo profilu konstrukcije, uvjetima okoline i zahtjevima projekta.",
+      "image": "/images/fsb/rjesenja/boja-1.jpg",
       "specifications": {
-        "fireResistance": "EI 120",
-        "standard": "EN 1366-3",
-        "application": "Kablovske police i pojedinačni kabeli"
+        "fireResistance": "R 30 – R 120",
+        "standard": "EN 13381-8",
+        "application": "Čelične konstrukcije — hale, dvorane, poslovne zgrade"
       },
-      "category": "brtvljenje"
+      "category": "pasivna-zastita"
     },
     {
-      "slug": "fsp-90",
-      "title": "FSP-90",
-      "description": "Protupožarna ploča za zaštitu čeličnih konstrukcija",
-      "fullDescription": "FSP-90 je visokoučinkovita protupožarna ploča dizajnirana za zaštitu čeličnih konstrukcija. Pruža otpornost na požar do 90 minuta i idealna je za primjenu u industrijskim halama, skladištima i poslovnim objektima.\n\nKarakteristike proizvoda:\n\n- Otpornost na požar: R 90\n- Niska težina\n- Jednostavna montaža\n- Estetski završetak",
-      "image": "/images/solutions/fsp-90.jpg",
+      "slug": "protupozarna-bravarija",
+      "title": "Protupožarna bravarija",
+      "description": "Vlastita proizvodnja protupožarnih vrata, stijena i revizijskih otvora — od razvoja i certifikacije do ugradnje.",
+      "fullDescription": "Protupožarna bravarija srce je naše proizvodnje. Kao proizvođač (FSB Doors), protupožarna vrata, stijene i revizijske otvore razvijamo u vlastitom R&D timu, certificiramo u akreditiranim laboratorijima i ugrađujemo vlastitim ekipama.\n\nIz našeg programa:\n\n- Jednokrilna i dvokrilna protupožarna vrata (EI 30 – EI 90)\n- Protupožarna vrata za tunele i infrastrukturne objekte\n- Revizijski otvori i tehnička vrata\n- Vrata s ostakljenjem i panik okovima\n\nZato što proizvod poznajemo od prvog crteža, možemo jamčiti ispravnu ugradnju i funkciju — jer vrata štite samo ako su ispravno ugrađena.",
+      "image": "/images/fsb/rjesenja/bravarija-1.jpg",
       "specifications": {
-        "fireResistance": "R 90",
-        "standard": "EN 13381-4",
-        "application": "Čelične konstrukcije"
+        "fireResistance": "EI 30 – EI 90",
+        "standard": "EN 16034 / EN 1634-1",
+        "application": "Zgrade svih namjena, tuneli, industrija"
       },
-      "category": "ploce"
+      "category": "pasivna-zastita"
     },
     {
-      "slug": "samostalni-vod-za-odvodnju-dima-i-topline",
-      "title": "Samostalni vod za odvodnju dima i topline",
-      "description": "Kompletni sustav za prirodnu ventilaciju i odvod dima",
-      "fullDescription": "Samostalni vod za odvodnju dima i topline je kompletan sustav koji osigurava sigurnu evakuaciju dima i topline u slučaju požara. Sustav omogućuje prirodnu ventilaciju i ključan je element pasivne protupožarne zaštite.\n\nPrednosti sustava:\n\n- Automatska aktivacija u slučaju požara\n- Manualna aktivacija kao opcija\n- Nisko održavanje\n- Dugi vijek trajanja",
-      "image": "/images/solutions/vod-dim.jpg",
+      "slug": "protupozarna-brtvljenja",
+      "title": "Protupožarna brtvljenja",
+      "description": "Brtvljenje prodora kabela, cijevi i ventilacije kroz požarne pregrade — detalj o kojem ovisi cijeli sustav.",
+      "fullDescription": "Svaki prodor instalacije kroz požarnu pregradu potencijalno je mjesto širenja požara. Protupožarna brtvljenja vraćaju pregradi njezinu punu otpornost — a upravo na tim detaljima u praksi nastaje najviše problema.\n\nIzvodimo brtvljenja svih vrsta prodora:\n\n- Kablovske police i pojedinačni kabeli\n- Gorive i negorive cijevi (obujmice, trake, brtvene mase)\n- Kombinirani prodori\n- Dilatacijske i spojne reške\n\nKoristimo certificirane sustave (Promat, Rudolf Hensel) i svaku poziciju dokumentiramo — označavanje, evidencija i zapisnici dio su standardne isporuke.",
+      "image": "/images/fsb/rjesenja/brtvljenja-1.jpg",
       "specifications": {
-        "fireResistance": "E 90 / EI 60",
-        "standard": "EN 12101-2",
-        "application": "Industrijski objekti, garaže, atriji"
+        "fireResistance": "EI 60 – EI 120",
+        "standard": "EN 1366-3 / EN 1366-4",
+        "application": "Prodori instalacija kroz požarne pregrade"
       },
-      "category": "ventilacija"
+      "category": "pasivna-zastita"
     },
     {
-      "slug": "fsd-1",
-      "title": "FSD-1",
-      "description": "Protupožarna zaklopka za ventilacijske kanale",
-      "fullDescription": "FSD-1 je pouzdana protupožarna zaklopka dizajnirana za ugradnju u ventilacijske kanale. Automatski se zatvara u slučaju požara, sprječavajući širenje vatre i dima kroz ventilacijski sustav.\n\nKarakteristike:\n\n- Automatsko zatvaranje termičkim okidačem\n- Mogućnost daljinske kontrole\n- Otpornost na požar do 120 minuta\n- Certificiran prema EN 15650",
-      "image": "/images/solutions/fsd-1.jpg",
+      "slug": "protupozarna-stakla",
+      "title": "Protupožarna stakla",
+      "description": "Vatrootporne staklene stijene i ostakljenja — transparentnost i sigurnost u jednom.",
+      "fullDescription": "Protupožarna stakla omogućuju prirodno svjetlo i vizualnu povezanost prostora bez kompromisa u požarnoj sigurnosti. Ugrađujemo ih u stijene, vrata i fasadne pozicije.\n\nNaša rješenja obuhvaćaju:\n\n- Protupožarne staklene stijene (EI 30 – EI 90)\n- Ostakljenja u protupožarnoj bravariji\n- Velike staklene plohe u atrijima i komunikacijama\n- Kombinacije s dimnim brtvama i panik okovima\n\nOd odabira sustava i statike do ugradnje i primopredajne dokumentacije — sve izvodi jedan tim, jer svi sustavi moraju raditi kao cjelina.",
+      "image": "/images/fsb/rjesenja/stakla-1.jpg",
       "specifications": {
-        "fireResistance": "EI 120 S",
-        "standard": "EN 15650",
-        "application": "Ventilacijski kanali"
+        "fireResistance": "EI 30 – EI 90",
+        "standard": "EN 1364-1",
+        "application": "Staklene stijene, atriji, komunikacije, fasade"
       },
-      "category": "zaklopke"
+      "category": "pasivna-zastita"
     },
     {
-      "slug": "fsd-1-hh",
-      "title": "FSD-1-HH",
-      "description": "Protupožarna zaklopka za high-rise zgrade",
-      "fullDescription": "FSD-1-HH je specijalizirana protupožarna zaklopka razvijena za primjenu u visokim zgradama. Zadovoljava najstrože sigurnosne zahtjeve i pruža pouzdanu zaštitu u najzahtjevnijim uvjetima.\n\nKarakteristike:\n\n- Pojačana konstrukcija za visoke zgrade\n- Integriran sustav nadzora\n- Otpornost na požar do 120 minuta\n- Testirano na povišeni tlak",
-      "image": "/images/solutions/fsd-1-hh.jpg",
+      "slug": "protupozarne-obloge",
+      "title": "Protupožarne obloge",
+      "description": "Obloge čeličnih i betonskih konstrukcija, kanala i kablovskih trasa protupožarnim pločama.",
+      "fullDescription": "Protupožarne obloge pločama klasično su i iznimno pouzdano rješenje zaštite konstrukcija. Primjenjuju se svugdje gdje se traži visoka otpornost, mehanička čvrstoća ili naknadna zaštita postojećih elemenata.\n\nIzvodimo obloge:\n\n- Čeličnih stupova i greda (do R 240)\n- Ventilacijskih kanala i kanala za odvod dima\n- Kablovskih trasa i instalacijskih okana\n- Samostojećih požarnih pregrada\n\nRadimo s kalcij-silikatnim pločama (PROMATECT i srodni sustavi) uz potpunu prateću dokumentaciju o ugrađenim materijalima i izvedenim detaljima.",
+      "image": "/images/fsb/rjesenja/obloge-1.jpg",
       "specifications": {
-        "fireResistance": "EI 120 S",
-        "standard": "EN 15650",
-        "application": "Visoke zgrade (high-rise)"
+        "fireResistance": "R 30 – R 240 / EI 30 – EI 120",
+        "standard": "EN 13381-4 / EN 1366-1",
+        "application": "Konstrukcije, kanali, kablovske trase, pregrade"
       },
-      "category": "zaklopke"
+      "category": "pasivna-zastita"
     },
     {
-      "slug": "protupozarna-brtva-za-cijevi",
-      "title": "Protupožarna brtva za cijevi",
-      "description": "Univerzalna brtva za brtvljenje prodora cijevi kroz zidove i stropove",
-      "fullDescription": "Naša protupožarna brtva za cijevi pruža pouzdano brtvljenje prodora metalnih i plastičnih cijevi kroz protupožarne pregrade. Sustav je jednostavan za ugradnju i omogućuje naknadne intervencije.\n\nPrednosti:\n\n- Primjenjivo za metalne i plastične cijevi\n- Jednostavna ugradnja\n- Mogućnost demontaže i ponovne montaže\n- Otpornost na požar do 120 minuta",
-      "image": "/images/solutions/brtva-cijevi.jpg",
+      "slug": "protupozarni-parapet",
+      "title": "Protupožarni parapet",
+      "description": "Vlastito razvijeno rješenje požarnog razdvajanja etaža na fasadi — sprječava vertikalno širenje požara.",
+      "fullDescription": "Protupožarni parapet sprječava širenje požara s etaže na etažu preko fasade — detalj koji je kod suvremenih staklenih fasada presudan za sigurnost cijele zgrade.\n\nNaše rješenje parapeta:\n\n- Razvijeno u vlastitom R&D timu i ispitano u akreditiranim laboratorijima\n- Sustav podkonstrukcije, kamene vune i protupožarnih ploča\n- Prilagodba svakoj fasadnoj geometriji\n- Ugradnja vlastitim certificiranim ekipama\n\nKao proizvođač i izvođač u jednom, za parapet odgovaramo u cijelosti — od radioničkog nacrta do zapisnika o ugradnji.",
+      "image": "/images/fsb/rjesenja/parapet-1.jpg",
       "specifications": {
-        "fireResistance": "EI 120",
-        "standard": "EN 1366-3",
-        "application": "Prodori cijevi"
+        "fireResistance": "EI 30 – EI 90",
+        "standard": "EN 1364-4",
+        "application": "Fasade — požarno razdvajanje etaža"
       },
-      "category": "brtvljenje"
+      "category": "pasivna-zastita"
     }
   ]
 }

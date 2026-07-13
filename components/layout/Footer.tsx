@@ -5,15 +5,15 @@ import { Phone, Mail, MapPin, Clock, ExternalLink } from "lucide-react";
 const footerNavigation = {
   usluge: [
     { name: "Izvođenje radova", href: "/usluge/izvodjenje-radova-protupozarne-zastite" },
-    { name: "Optimizacija troškova", href: "/usluge/optimizacija-troskova-protupozarne-zastite" },
-    { name: "Edukacija", href: "/usluge/edukacija" },
-    { name: "Laboratorijsko ispitivanje", href: "/usluge/laboratorijsko-ispitivanje" },
+    { name: "Savjetovanje i optimizacija", href: "/usluge/optimizacija-troskova-protupozarne-zastite" },
+    { name: "FSB Academy", href: "/usluge/fsb-academy" },
+    { name: "Razvoj i proizvodnja", href: "/usluge/razvoj-i-proizvodnja" },
   ],
   proizvodi: [
-    { name: "Protupožarno brtvljenje", href: "/proizvodi/protupozarno-brtvljenje" },
-    { name: "Protupožarna boja i premaz", href: "/proizvodi/protupozarna-boja-i-premaz" },
-    { name: "Protupožarne ploče", href: "/proizvodi/protupozarne-ploce" },
-    { name: "Protupožarni moduli", href: "/proizvodi/protupozarni-moduli" },
+    { name: "Protupožarna boja", href: "/proizvodi/protupozarna-boja" },
+    { name: "Protupožarna bravarija", href: "/proizvodi/protupozarna-bravarija" },
+    { name: "Protupožarna brtvljenja", href: "/proizvodi/protupozarna-brtvljenja" },
+    { name: "Protupožarne obloge", href: "/proizvodi/protupozarne-obloge" },
   ],
   tvrtka: [
     { name: "O nama", href: "/o-nama" },
@@ -38,36 +38,35 @@ export default function Footer() {
             <Link href="/" className="inline-block">
               <Image
                 src="/images/logo-fsb.png"
-                alt="FSB Protupožarna Zaštita"
+                alt="FSB d.o.o."
                 width={150}
                 height={40}
                 className="h-10 w-auto brightness-0 invert"
               />
             </Link>
             <p className="mt-4 text-sm text-neutral-400 leading-relaxed">
-              Više od 30 godina iskustva u projektiranju, izvođenju i nadzoru
-              protupožarne zaštite.
+              Proizvođač i izvođač pasivne protupožarne zaštite s 20 godina
+              iskustva. Proizvođač je partner, ne samo dobavljač.
             </p>
             <div className="mt-6 space-y-3">
               <a
-                href="tel:+38514878515"
+                href="tel:+38513496811"
                 className="flex items-center gap-3 text-sm text-neutral-300 hover:text-white transition-colors"
               >
                 <Phone className="h-4 w-4 text-brand-500" />
-                +385 1 4878 515
+                +385 1 3496 811
               </a>
               <a
-                href="mailto:info@fsb-protupozarna-zastita.hr"
+                href="mailto:info@fsb-zagreb.hr"
                 className="flex items-center gap-3 text-sm text-neutral-300 hover:text-white transition-colors"
               >
                 <Mail className="h-4 w-4 text-brand-500" />
-                info@fsb-protupozarna-zastita.hr
+                info@fsb-zagreb.hr
               </a>
               <div className="flex items-start gap-3 text-sm text-neutral-300">
                 <MapPin className="h-4 w-4 text-brand-500 mt-0.5 flex-shrink-0" />
                 <span>
-                  Samoborska Cesta 91B<br />
-                  Samoborski Odvojak 1<br />
+                  Samoborska cesta 91<br />
                   10000 Zagreb, Hrvatska
                 </span>
               </div>
@@ -160,7 +159,7 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-neutral-800">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <p className="text-sm text-neutral-400">
-              &copy; {new Date().getFullYear()} FSB Protupožarna Zaštita. Sva prava pridržana.
+              &copy; {new Date().getFullYear()} FSB d.o.o. Sva prava pridržana.
             </p>
             <div className="flex items-center gap-6">
               <Link

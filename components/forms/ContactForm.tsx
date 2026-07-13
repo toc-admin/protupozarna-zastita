@@ -153,9 +153,8 @@ export default function ContactForm() {
         >
           <option value="">Odaberite predmet upita</option>
           <option value="izvodjenje">Izvođenje radova</option>
-          <option value="optimizacija">Optimizacija troškova</option>
-          <option value="edukacija">Edukacija</option>
-          <option value="laboratorij">Laboratorijsko ispitivanje</option>
+          <option value="optimizacija">Savjetovanje i optimizacija troškova</option>
+          <option value="edukacija">FSB Academy</option>
           <option value="proizvodi">Proizvodi</option>
           <option value="ostalo">Ostalo</option>
         </select>

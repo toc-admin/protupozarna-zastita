@@ -4,8 +4,8 @@ import { useEffect, useRef, useState } from "react";
 
 const stats = [
   {
-    value: 30,
-    suffix: "+",
+    value: 20,
+    suffix: "",
     label: "Godina iskustva",
   },
   {

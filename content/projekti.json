@@ -1,25 +1,95 @@
 {
+  "categories": [
+    "Stambene zgrade",
+    "Poslovne zgrade",
+    "Zdravstvene ustanove",
+    "Škole i vrtići",
+    "Tuneli",
+    "Javna infrastruktura",
+    "Trgovački centri",
+    "Hoteli",
+    "Industrija"
+  ],
   "projects": [
+    {
+      "slug": "tunel-plasina",
+      "title": "Tunel Plasina",
+      "category": "Tuneli",
+      "location": "Autocesta A1",
+      "year": "2024",
+      "description": "Protupožarna zaštita u cestovnom tunelu Plasina. Isporuka i ugradnja protupožarne bravarije za SOS niše i evakuacijske prolaze — vrata razvijena i proizvedena u FSB-u, certificirana za najstrože tunelske uvjete.",
+      "scope": [
+        "Protupožarna vrata za SOS niše i poprečne prolaze",
+        "Protupožarna bravarija u tehničkim prostorima",
+        "Protupožarna brtvljenja prodora instalacija",
+        "Kompletna dokumentacija i primopredaja"
+      ],
+      "image": "/images/fsb/projekti/tunel-plasina-1.jpg",
+      "gallery": [
+        "/images/fsb/projekti/tunel-plasina-2.jpg",
+        "/images/fsb/projekti/tunel-plasina-3.jpg",
+        "/images/fsb/projekti/tunel-plasina-4.jpg"
+      ],
+      "featured": true
+    },
+    {
+      "slug": "vmd-blok-buzanova",
+      "title": "VMD Blok Bužanova",
+      "category": "Stambene zgrade",
+      "location": "Zagreb",
+      "year": "2023",
+      "description": "Pasivna protupožarna zaštita stambeno-poslovnog kompleksa. Protupožarna brtvljenja svih instalacijskih prodora u garažama i etažama te protupožarne obloge tehničkih prostora.",
+      "scope": [
+        "Protupožarno brtvljenje prodora u garaži i etažama",
+        "Protupožarne obloge ventilacijskih kanala",
+        "Protupožarna vrata tehničkih prostora",
+        "Označavanje i evidencija svih brtvljenja"
+      ],
+      "image": "/images/fsb/projekti/vmd-buzanova-1.jpg",
+      "gallery": [
+        "/images/fsb/projekti/vmd-buzanova-2.jpg",
+        "/images/fsb/projekti/vmd-buzanova-3.jpg",
+        "/images/fsb/projekti/vmd-buzanova-4.jpg"
+      ],
+      "featured": true
+    },
+    {
+      "slug": "bazeni-spansko",
+      "title": "Bazeni Špansko",
+      "category": "Javna infrastruktura",
+      "location": "Zagreb",
+      "year": "2023",
+      "description": "Protupožarna zaštita gradskog bazenskog kompleksa Špansko. Obloge ventilacijskih kanala protupožarnim pločama, brtvljenja prodora i zaštita čelične konstrukcije u strojarnici i tehničkim prostorima.",
+      "scope": [
+        "Protupožarne obloge ventilacijskih kanala",
+        "Protupožarno brtvljenje prodora instalacija",
+        "Zaštita čelične konstrukcije premazima",
+        "Protupožarna vrata tehničkih prostora"
+      ],
+      "image": "/images/fsb/projekti/bazeni-spansko-1.jpg",
+      "gallery": [
+        "/images/fsb/projekti/bazeni-spansko-2.jpg",
+        "/images/fsb/projekti/bazeni-spansko-3.jpg",
+        "/images/fsb/projekti/bazeni-spansko-4.jpg"
+      ],
+      "featured": true
+    },
     {
       "slug": "kbc-sestre-milosrdnice",
       "title": "KBC Sestre milosrdnice",
       "category": "Zdravstvene ustanove",
       "location": "Zagreb",
       "year": "2022",
-      "description": "Kompleksni projekt protupožarne zaštite za bolnički kompleks. Uključivao je protupožarno brtvljenje prodora instalacija, ugradnju protupožarnih vrata i sustava za odvod dima.",
+      "description": "Kompleksni projekt protupožarne zaštite za bolnički kompleks. Uključivao je protupožarno brtvljenje prodora instalacija, ugradnju protupožarnih vrata i protupožarnih obloga.",
       "scope": [
         "Protupožarno brtvljenje kablovskih prodora",
         "Ugradnja protupožarnih vrata EI 60",
-        "Sustav za odvod dima i topline",
+        "Protupožarne obloge instalacijskih trasa",
         "Protupožarni premazi na čeličnim konstrukcijama"
       ],
       "image": "/images/projects/kbc-sestre.jpg",
-      "gallery": [
-        "/images/projects/kbc-sestre-1.jpg",
-        "/images/projects/kbc-sestre-2.jpg",
-        "/images/projects/kbc-sestre-3.jpg"
-      ],
-      "featured": true
+      "gallery": [],
+      "featured": false
     },
     {
       "slug": "poslovna-zgrada-bhb",
@@ -27,19 +97,16 @@
       "category": "Poslovne zgrade",
       "location": "Zagreb",
       "year": "2021",
-      "description": "Moderna poslovna zgrada s najvišim standardima protupožarne zaštite. Projekt je uključivao kompletnu protupožarnu zaštitu od temelja do krova.",
+      "description": "Moderna poslovna zgrada s najvišim standardima protupožarne zaštite. Projekt je uključivao kompletnu pasivnu protupožarnu zaštitu od temelja do krova.",
       "scope": [
         "Protupožarno brtvljenje svih prodora",
-        "Protupožarne zaklopke u ventilacijskom sustavu",
         "Protupožarna stakla u atriju",
-        "Sustav za detekciju požara"
+        "Protupožarna vrata i staklene stijene",
+        "Protupožarni parapeti na fasadi"
       ],
       "image": "/images/projects/bhb.jpg",
-      "gallery": [
-        "/images/projects/bhb-1.jpg",
-        "/images/projects/bhb-2.jpg"
-      ],
-      "featured": true
+      "gallery": [],
+      "featured": false
     },
     {
       "slug": "zicara-sljeme",
@@ -52,14 +119,11 @@
         "Protupožarni premazi na čeličnim konstrukcijama",
         "Protupožarno brtvljenje u strojarnici",
         "Zaštita kablovskih trasa",
-        "Protupožarne ploče"
+        "Protupožarne obloge"
       ],
-      "image": "/images/projects/zicara-sljeme.jpg",
-      "gallery": [
-        "/images/projects/zicara-1.jpg",
-        "/images/projects/zicara-2.jpg"
-      ],
-      "featured": true
+      "image": "/images/fsb/factory/factory-aerial-4.jpg",
+      "gallery": ["/images/fsb/factory/factory-aerial-2.jpg"],
+      "featured": false
     },
     {
       "slug": "shopping-centar-arena",
@@ -67,11 +131,11 @@
       "category": "Trgovački centri",
       "location": "Zagreb",
       "year": "2020",
-      "description": "Veliki trgovački centar sa složenim zahtjevima protupožarne zaštite. Realizacija uključivala koordinaciju s brojnim izvođačima.",
+      "description": "Veliki trgovački centar sa složenim zahtjevima protupožarne zaštite. Realizacija je uključivala koordinaciju s brojnim izvođačima.",
       "scope": [
         "Sektoriranje požarnih zona",
         "Protupožarna vrata i staklene stijene",
-        "Sustav za odvod dima",
+        "Protupožarne obloge",
         "Brtvljenje svih instalacijskih prodora"
       ],
       "image": "/images/projects/arena.jpg",
@@ -89,7 +153,7 @@
         "Protupožarno brtvljenje u svim etažama",
         "Protupožarna vrata u hodnicima",
         "Zaštita dizala i stubišta",
-        "Protupožarne zaklopke"
+        "Protupožarne obloge"
       ],
       "image": "/images/projects/westin.jpg",
       "gallery": [],
@@ -104,7 +168,7 @@
       "description": "Industrijski objekt s posebnim zahtjevima za čistoću i protupožarnu zaštitu. Primijenjeni specijalizirani sustavi.",
       "scope": [
         "Protupožarno brtvljenje u čistim sobama",
-        "Specijalne protupožarne zaklopke",
+        "Protupožarne obloge procesnih instalacija",
         "Zaštita procesnih instalacija",
         "Protupožarni premazi"
       ],

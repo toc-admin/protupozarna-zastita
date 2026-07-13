@@ -13,8 +13,8 @@ export default function Home() {
     <>
       <Hero
         title="Vaš pouzdan partner za protupožarnu zaštitu"
-        subtitle="FSB Protupožarna Zaštita"
-        description="Više od 30 godina iskustva u projektiranju, izvođenju i nadzoru protupožarne zaštite. Povjerite svoje projekte stručnjacima."
+        subtitle="FSB d.o.o."
+        description="20 godina iskustva u proizvodnji i izvođenju pasivne protupožarne zaštite. Proizvođač je partner, ne samo dobavljač."
         primaryCta={{
           text: "Naše usluge",
           href: "/usluge",

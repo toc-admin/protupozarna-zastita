@@ -235,3 +235,55 @@ body {
   transform: translateY(-5px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
+
+/* ---- Concept pages ---- */
+
+/* K1: ISO 834 fire-curve draw-in */
+@keyframes k1-draw {
+  from {
+    stroke-dashoffset: 1200;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.k1-curve {
+  stroke-dasharray: 1200;
+  animation: k1-draw 2.4s cubic-bezier(0.4, 0, 0.2, 1) 0.3s both;
+}
+
+/* K2: reference marquee */
+@keyframes k2-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.k2-marquee {
+  animation: k2-marquee 40s linear infinite;
+}
+
+/* K2: hazard stripe divider (safety-tape vernacular) */
+.k2-hazard {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    #ff6a00 0,
+    #ff6a00 12px,
+    transparent 12px,
+    transparent 24px
+  );
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .k1-curve,
+  .k2-marquee {
+    animation: none;
+  }
+  .k1-curve {
+    stroke-dashoffset: 0;
+  }
+}
