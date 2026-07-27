@@ -2,9 +2,9 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowLeft, Check } from "lucide-react";
-import ContactCTA from "@/components/sections/ContactCTA";
-import Button from "@/components/ui/Button";
+import PageHeader from "@/components/sections/PageHeader";
+import Reveal from "@/components/site/Reveal";
+import { container, monoLabel, monoMeta } from "@/components/site/tokens";
 import { getServiceBySlug, getServiceSlugs, getAllServices } from "@/lib/content";
 
 interface Props {
@@ -30,6 +30,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+// Tehnički list usluge: antracit zaglavlje + sadržaj u rasporedu podatkovnog
+// lista (numerirani redovi, mono meta, bočna ploča s činjenicama).
 export default async function ServicePage({ params }: Props) {
   const { slug } = await params;
   const service = getServiceBySlug(slug);
@@ -39,134 +41,201 @@ export default async function ServicePage({ params }: Props) {
   }
 
   const allServices = getAllServices();
+  const serviceIndex = allServices.findIndex((s) => s.slug === slug);
+  const indexLabel = `U.${String(serviceIndex + 1).padStart(2, "0")}`;
   const otherServices = allServices.filter((s) => s.slug !== slug);
 
   return (
-    <>
-      {/* Service Hero with background image */}
-      <section className="relative h-[60vh] min-h-[450px] flex items-end">
-        {/* Background image */}
-        <div className="absolute inset-0">
-          <Image
-            src={service.image}
-            alt={service.title}
-            fill
-            className="object-cover"
-            priority
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-neutral-900 via-neutral-900/50 to-neutral-900/20" />
-        </div>
+    <div className="bg-paper text-ink">
+      <PageHeader
+        title={service.title}
+        subtitle={`Usluge · ${indexLabel}`}
+        description={service.description}
+      />
 
-        {/* Content */}
-        <div className="relative z-10 w-full pb-12 md:pb-16">
-          <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+      <section className={`${container} py-16 md:py-24`}>
+        {/* povratna veza + meta traka */}
+        <Reveal>
+          <div className="flex flex-wrap items-baseline justify-between gap-4 border-b border-hairline pb-4 mb-10">
             <Link
               href="/usluge"
-              className="inline-flex items-center gap-2 text-white/70 hover:text-white transition-colors mb-6"
+              className="font-mono text-[12px] uppercase tracking-[0.14em] text-neutral-600 hover:text-red transition-colors"
             >
-              <ArrowLeft className="h-4 w-4" />
-              <span>Sve usluge</span>
+              ← Sve usluge
             </Link>
-
-            <span className="inline-block text-brand-400 text-sm font-medium mb-3">
-              Naše usluge
+            <span className={monoMeta}>
+              List {indexLabel} / {String(allServices.length).padStart(2, "0")}
             </span>
-
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              {service.title}
-            </h1>
-
-            <p className="text-lg text-neutral-300 max-w-2xl">
-              {service.description}
-            </p>
           </div>
-        </div>
-      </section>
+        </Reveal>
 
-      {/* Service content */}
-      <section className="py-16 md:py-24 bg-white">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-            {/* Main content */}
-            <div className="lg:col-span-2">
-              <div className="prose prose-lg max-w-none">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-16">
+          {/* ── Glavni sadržaj ─────────────────────────── */}
+          <div className="lg:col-span-2">
+            <Reveal>
+              <figure className="relative aspect-[16/9] overflow-hidden border border-hairline mb-10">
+                <Image
+                  src={service.image}
+                  alt={service.title}
+                  fill
+                  sizes="(min-width: 1024px) 66vw, 100vw"
+                  className="object-cover grayscale-[35%]"
+                  priority
+                />
+              </figure>
+            </Reveal>
+
+            <Reveal>
+              <div className="max-w-none">
                 {service.fullDescription.split("\n\n").map((paragraph, index) => {
                   if (paragraph.startsWith("- ")) {
-                    const items = paragraph.split("\n").filter((line) => line.startsWith("- "));
+                    const items = paragraph
+                      .split("\n")
+                      .filter((line) => line.startsWith("- "));
                     return (
-                      <ul key={index} className="space-y-3 my-6 list-none p-0">
+                      <ol key={index} className="my-8 border-t border-hairline">
                         {items.map((item, i) => (
-                          <li key={i} className="flex items-start gap-3">
-                            <Check className="h-5 w-5 text-brand-500 mt-1 flex-shrink-0" />
-                            <span className="text-neutral-700">{item.substring(2)}</span>
+                          <li
+                            key={i}
+                            className="grid grid-cols-12 gap-4 items-baseline border-b border-hairline py-3.5"
+                          >
+                            <span className="col-span-2 sm:col-span-1 font-mono text-[12px] text-red">
+                              {String(i + 1).padStart(2, "0")}
+                            </span>
+                            <span className="col-span-10 sm:col-span-11 text-neutral-700 leading-relaxed">
+                              {item.substring(2)}
+                            </span>
                           </li>
                         ))}
-                      </ul>
+                      </ol>
                     );
                   }
                   return (
-                    <p key={index} className="text-neutral-600 leading-relaxed">
+                    <p key={index} className="mt-5 first:mt-0 text-neutral-600 leading-relaxed text-lg">
                       {paragraph}
                     </p>
                   );
                 })}
               </div>
+            </Reveal>
 
-              {/* Features */}
-              <div className="mt-12 p-8 bg-neutral-50 rounded-2xl">
-                <h3 className="text-xl font-bold text-neutral-900 mb-6">
-                  Ključne prednosti
-                </h3>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  {service.features.map((feature) => (
-                    <div key={feature} className="flex items-center gap-3">
-                      <div className="w-10 h-10 bg-brand-500 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <Check className="h-5 w-5 text-white" />
-                      </div>
-                      <span className="font-medium text-neutral-900">{feature}</span>
+            {/* Ključne prednosti — numerirani redovi */}
+            <Reveal>
+              <div className="mt-14 border border-hairline">
+                <div className="flex items-baseline justify-between gap-4 border-b border-hairline px-5 py-4 bg-white">
+                  <h3 className="text-lg font-bold tracking-tight">Ključne prednosti</h3>
+                  <span className={monoMeta}>{service.features.length} stavke</span>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-hairline">
+                  {service.features.map((feature, i) => (
+                    <div key={feature} className="bg-paper px-5 py-4 flex items-baseline gap-4">
+                      <span className="font-mono text-[12px] text-red shrink-0">
+                        {String(i + 1).padStart(2, "0")}
+                      </span>
+                      <span className="font-medium">{feature}</span>
                     </div>
                   ))}
                 </div>
               </div>
-            </div>
+            </Reveal>
+          </div>
 
-            {/* Sidebar */}
-            <div className="lg:col-span-1">
-              <div className="sticky top-28 space-y-6">
-                {/* CTA */}
-                <div className="bg-neutral-900 rounded-2xl p-6 text-white">
-                  <h3 className="font-semibold mb-2">Zatražite ponudu</h3>
-                  <p className="text-neutral-400 text-sm mb-6">
-                    Kontaktirajte nas za besplatne konzultacije i ponudu.
-                  </p>
-                  <Button href="/kontakt" className="w-full">
-                    Kontaktirajte nas
-                  </Button>
-                </div>
+          {/* ── Bočna ploha ─────────────────────────────── */}
+          <div className="lg:col-span-1">
+            <div className="sticky top-24 space-y-px bg-hairline border border-hairline">
+              {/* Činjenice o usluzi */}
+              <div className="bg-paper p-6">
+                <span className={monoLabel}>Podaci o usluzi</span>
+                <dl className="mt-5 space-y-4">
+                  <div className="grid grid-cols-3 gap-3 items-baseline">
+                    <dt className="font-mono text-[11px] uppercase tracking-[0.12em] text-neutral-400">
+                      Oznaka
+                    </dt>
+                    <dd className="col-span-2 font-mono text-[13px]">{indexLabel}</dd>
+                  </div>
+                  <div className="grid grid-cols-3 gap-3 items-baseline">
+                    <dt className="font-mono text-[11px] uppercase tracking-[0.12em] text-neutral-400">
+                      Usluga
+                    </dt>
+                    <dd className="col-span-2 text-sm font-semibold">{service.shortTitle}</dd>
+                  </div>
+                  <div className="grid grid-cols-3 gap-3 items-baseline">
+                    <dt className="font-mono text-[11px] uppercase tracking-[0.12em] text-neutral-400">
+                      Izvođač
+                    </dt>
+                    <dd className="col-span-2 text-sm">FSB d.o.o., Zagreb</dd>
+                  </div>
+                </dl>
+              </div>
 
-                {/* Other services */}
-                <div className="bg-neutral-50 rounded-2xl p-6">
-                  <h3 className="font-semibold text-neutral-900 mb-4">Ostale usluge</h3>
-                  <ul className="space-y-3">
-                    {otherServices.map((s) => (
-                      <li key={s.slug}>
+              {/* CTA — antracit umetak */}
+              <div className="bg-anthracite text-paper p-6">
+                <span className={monoLabel}>Zatražite ponudu</span>
+                <p className="mt-4 text-sm text-neutral-300 leading-relaxed">
+                  Kontaktirajte nas za besplatne konzultacije i ponudu.
+                </p>
+                <Link
+                  href="/kontakt"
+                  className="mt-6 inline-block w-full text-center px-6 py-3 bg-red text-white font-semibold hover:opacity-90 transition-opacity"
+                >
+                  Kontaktirajte nas
+                </Link>
+              </div>
+
+              {/* Ostale usluge */}
+              <div className="bg-paper p-6">
+                <span className={monoLabel}>Ostale usluge</span>
+                <ul className="mt-5">
+                  {otherServices.map((s) => {
+                    const i = allServices.findIndex((a) => a.slug === s.slug);
+                    return (
+                      <li key={s.slug} className="border-b border-hairline last:border-b-0">
                         <Link
                           href={`/usluge/${s.slug}`}
-                          className="text-neutral-600 hover:text-brand-500 transition-colors"
+                          className="group flex items-baseline gap-4 py-3"
                         >
-                          {s.shortTitle}
+                          <span className="font-mono text-[11px] text-red">
+                            U.{String(i + 1).padStart(2, "0")}
+                          </span>
+                          <span className="text-sm font-medium group-hover:text-red transition-colors">
+                            {s.shortTitle}
+                          </span>
                         </Link>
                       </li>
-                    ))}
-                  </ul>
-                </div>
+                    );
+                  })}
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <ContactCTA />
-    </>
+      {/* ── Kontakt CTA — tinta ────────────────────────── */}
+      <section className="bg-ink text-white">
+        <div className={`${container} py-20 md:py-24`}>
+          <Reveal>
+            <span className={monoLabel}>Sljedeći korak</span>
+            <h2 className="mt-5 text-3xl md:text-4xl font-extrabold tracking-tight max-w-2xl leading-[1.05]">
+              Razgovarajmo o vašem projektu.
+            </h2>
+            <div className="mt-8 flex flex-wrap gap-3">
+              <Link
+                href="/kontakt"
+                className="px-7 py-3.5 bg-red text-white font-semibold hover:opacity-90 transition-opacity"
+              >
+                Kontaktirajte nas
+              </Link>
+              <a
+                href="tel:+38513496811"
+                className="px-7 py-3.5 font-semibold border border-white/30 hover:bg-white/10 transition-colors"
+              >
+                +385 1 3496 811
+              </a>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+    </div>
   );
 }

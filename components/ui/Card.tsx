@@ -11,6 +11,7 @@ interface CardProps {
   variant?: "default" | "horizontal" | "featured";
 }
 
+// Kartica kao list kataloga: ravni rubovi, tanka linija, bez sjena.
 export default function Card({
   title,
   description,
@@ -31,7 +32,8 @@ export default function Card({
             src={image}
             alt={title}
             fill
-            className="object-cover transition-transform duration-300 group-hover:scale-105"
+            sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+            className="object-cover grayscale-[35%] transition-all duration-500 group-hover:grayscale-0 group-hover:scale-[1.03]"
           />
         </div>
       )}
@@ -41,7 +43,7 @@ export default function Card({
         }`}
       >
         <h3
-          className={`font-semibold text-neutral-900 group-hover:text-brand-500 transition-colors ${
+          className={`font-bold tracking-tight text-ink group-hover:text-red transition-colors ${
             variant === "featured" ? "text-xl" : "text-lg"
           }`}
         >
@@ -57,9 +59,9 @@ export default function Card({
           </p>
         )}
         {href && (
-          <div className="mt-4 flex items-center gap-2 text-brand-500 font-medium text-sm">
+          <div className="mt-4 flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.14em] text-neutral-400 group-hover:text-ink transition-colors">
             <span>Saznaj više</span>
-            <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+            <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-1" />
           </div>
         )}
       </div>
@@ -67,7 +69,7 @@ export default function Card({
   );
 
   const baseStyles =
-    "group bg-white rounded-xl shadow-sm border border-neutral-100 overflow-hidden transition-shadow hover:shadow-md";
+    "group bg-white border border-hairline overflow-hidden transition-colors hover:border-neutral-400";
 
   const variantStyles = {
     default: "flex flex-col",

@@ -1,35 +1,38 @@
 import Image from "next/image";
+import Reveal from "@/components/site/Reveal";
+import SectionHead from "@/components/site/SectionHead";
+import { container, monoLabel } from "@/components/site/tokens";
 
+// Vodstvo — dokumentarna fotografija (puna boja) + tekst u obrubljenom panelu.
 export default function Director() {
   return (
-    <section className="py-20 md:py-28 bg-neutral-50">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Image */}
-          <div className="relative aspect-[4/5] max-w-md mx-auto lg:mx-0">
-            <div className="absolute inset-0 bg-brand-500 rounded-2xl transform rotate-3" />
-            <div className="relative h-full bg-neutral-200 rounded-2xl overflow-hidden">
-              <Image
-                src="/images/team/direktor.jpg"
-                alt="Dipl. ing. Stipe Barišić - Direktor"
-                fill
-                className="object-cover"
-              />
-            </div>
+    <section className={`${container} pb-20 md:pb-28`}>
+      <Reveal>
+        <SectionHead index="4.0" title="Vodstvo" note="Direktor i osnivač" />
+      </Reveal>
+      <Reveal>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-px bg-hairline border border-hairline">
+          {/* Fotografija */}
+          <div className="relative aspect-[4/5] lg:aspect-auto lg:min-h-[480px] bg-white">
+            <Image
+              src="/images/team/direktor.jpg"
+              alt="Dipl. ing. Stipe Barišić — direktor"
+              fill
+              sizes="(min-width: 1024px) 50vw, 100vw"
+              className="object-cover"
+            />
           </div>
 
-          {/* Content */}
-          <div>
-            <p className="text-brand-500 font-semibold text-sm uppercase tracking-wider mb-2">
-              Vodstvo
-            </p>
-            <h2 className="text-3xl md:text-4xl font-bold text-neutral-900">
+          {/* Sadržaj */}
+          <div className="bg-white p-8 md:p-12 flex flex-col justify-center">
+            <span className={monoLabel}>Vodstvo</span>
+            <h3 className="mt-3 text-3xl md:text-4xl font-bold tracking-tight">
               Dipl. ing. Stipe Barišić
-            </h2>
-            <p className="mt-2 text-lg text-neutral-600">
+            </h3>
+            <p className="mt-2 font-mono text-[12px] uppercase tracking-[0.15em] text-neutral-400">
               Direktor i osnivač
             </p>
-            <div className="mt-6 space-y-4 text-neutral-600">
+            <div className="mt-6 space-y-4 text-neutral-600 leading-relaxed">
               <p>
                 S 20 godina iskustva u pasivnoj protupožarnoj zaštiti, Stipe Barišić
                 jedan je od vodećih stručnjaka u Hrvatskoj i regiji. Karijeru je gradio
@@ -49,7 +52,7 @@ export default function Director() {
             </div>
           </div>
         </div>
-      </div>
+      </Reveal>
     </section>
   );
 }

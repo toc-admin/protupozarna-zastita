@@ -3,6 +3,13 @@
 import { useState } from "react";
 import Button from "@/components/ui/Button";
 
+// Obrazac u jeziku tehničkog lista: ravni rubovi, hairline obrubi,
+// numerirane mono etikete. Logika slanja je nepromijenjena.
+const labelClass =
+  "block font-mono text-[11px] uppercase tracking-[0.18em] text-neutral-500 mb-2";
+const fieldClass =
+  "w-full px-4 py-3 bg-white border border-hairline focus:border-red outline-none transition-colors";
+
 export default function ContactForm() {
   const [formData, setFormData] = useState({
     name: "",
@@ -48,26 +55,22 @@ export default function ContactForm() {
 
   if (status === "success") {
     return (
-      <div className="bg-green-50 border border-green-200 rounded-2xl p-8 text-center">
-        <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-          <svg
-            className="w-8 h-8 text-green-500"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-          </svg>
+      <div className="border border-hairline bg-white p-8">
+        <div className="flex items-center gap-3">
+          <span className="inline-block w-2.5 h-2.5 bg-red" />
+          <span className="font-mono text-[11px] uppercase tracking-[0.18em] text-red">
+            Poruka poslana
+          </span>
         </div>
-        <h3 className="text-xl font-semibold text-green-900 mb-2">Poruka poslana!</h3>
-        <p className="text-green-700">
-          Hvala vam na upitu. Odgovorit ćemo vam u najkraćem mogućem roku.
+        <h3 className="mt-4 text-xl font-bold tracking-tight">Hvala vam na upitu.</h3>
+        <p className="mt-2 text-neutral-600 leading-relaxed">
+          Odgovorit ćemo vam u najkraćem mogućem roku.
         </p>
         <button
           onClick={() => setStatus("idle")}
-          className="mt-4 text-green-600 font-medium hover:text-green-700"
+          className="mt-6 font-mono text-[11px] uppercase tracking-[0.18em] text-red hover:opacity-80 transition-opacity"
         >
-          Pošaljite novu poruku
+          Pošaljite novu poruku →
         </button>
       </div>
     );
@@ -77,8 +80,8 @@ export default function ContactForm() {
     <form onSubmit={handleSubmit} className="space-y-6">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         <div>
-          <label htmlFor="name" className="block text-sm font-medium text-neutral-700 mb-2">
-            Ime i prezime *
+          <label htmlFor="name" className={labelClass}>
+            <span className="text-red">01 /</span> Ime i prezime *
           </label>
           <input
             type="text"
@@ -87,13 +90,13 @@ export default function ContactForm() {
             required
             value={formData.name}
             onChange={handleChange}
-            className="w-full px-4 py-3 rounded-lg border border-neutral-200 focus:border-brand-500 focus:ring-2 focus:ring-brand-500/20 outline-none transition-all"
+            className={fieldClass}
             placeholder="Ivan Horvat"
           />
         </div>
         <div>
-          <label htmlFor="email" className="block text-sm font-medium text-neutral-700 mb-2">
-            Email adresa *
+          <label htmlFor="email" className={labelClass}>
+            <span className="text-red">02 /</span> Email adresa *
           </label>
           <input
             type="email"
@@ -102,7 +105,7 @@ export default function ContactForm() {
             required
             value={formData.email}
             onChange={handleChange}
-            className="w-full px-4 py-3 rounded-lg border border-neutral-200 focus:border-brand-500 focus:ring-2 focus:ring-brand-500/20 outline-none transition-all"
+            className={fieldClass}
             placeholder="ivan@primjer.hr"
           />
         </div>
@@ -110,8 +113,8 @@ export default function ContactForm() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         <div>
-          <label htmlFor="phone" className="block text-sm font-medium text-neutral-700 mb-2">
-            Telefon
+          <label htmlFor="phone" className={labelClass}>
+            <span className="text-red">03 /</span> Telefon
           </label>
           <input
             type="tel"
@@ -119,13 +122,13 @@ export default function ContactForm() {
             name="phone"
             value={formData.phone}
             onChange={handleChange}
-            className="w-full px-4 py-3 rounded-lg border border-neutral-200 focus:border-brand-500 focus:ring-2 focus:ring-brand-500/20 outline-none transition-all"
+            className={fieldClass}
             placeholder="+385 1 234 5678"
           />
         </div>
         <div>
-          <label htmlFor="company" className="block text-sm font-medium text-neutral-700 mb-2">
-            Tvrtka
+          <label htmlFor="company" className={labelClass}>
+            <span className="text-red">04 /</span> Tvrtka
           </label>
           <input
             type="text"
@@ -133,15 +136,15 @@ export default function ContactForm() {
             name="company"
             value={formData.company}
             onChange={handleChange}
-            className="w-full px-4 py-3 rounded-lg border border-neutral-200 focus:border-brand-500 focus:ring-2 focus:ring-brand-500/20 outline-none transition-all"
+            className={fieldClass}
             placeholder="Naziv tvrtke"
           />
         </div>
       </div>
 
       <div>
-        <label htmlFor="subject" className="block text-sm font-medium text-neutral-700 mb-2">
-          Predmet upita *
+        <label htmlFor="subject" className={labelClass}>
+          <span className="text-red">05 /</span> Predmet upita *
         </label>
         <select
           id="subject"
@@ -149,7 +152,7 @@ export default function ContactForm() {
           required
           value={formData.subject}
           onChange={handleChange}
-          className="w-full px-4 py-3 rounded-lg border border-neutral-200 focus:border-brand-500 focus:ring-2 focus:ring-brand-500/20 outline-none transition-all"
+          className={fieldClass}
         >
           <option value="">Odaberite predmet upita</option>
           <option value="izvodjenje">Izvođenje radova</option>
@@ -161,8 +164,8 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label htmlFor="message" className="block text-sm font-medium text-neutral-700 mb-2">
-          Vaša poruka *
+        <label htmlFor="message" className={labelClass}>
+          <span className="text-red">06 /</span> Vaša poruka *
         </label>
         <textarea
           id="message"
@@ -171,13 +174,13 @@ export default function ContactForm() {
           rows={5}
           value={formData.message}
           onChange={handleChange}
-          className="w-full px-4 py-3 rounded-lg border border-neutral-200 focus:border-brand-500 focus:ring-2 focus:ring-brand-500/20 outline-none transition-all resize-none"
+          className={`${fieldClass} resize-none`}
           placeholder="Opišite vaš upit ili projekt..."
         />
       </div>
 
       {status === "error" && (
-        <div className="bg-red-50 border border-red-200 rounded-lg p-4 text-red-700">
+        <div className="border border-red bg-white p-4 text-sm text-red">
           Došlo je do greške. Molimo pokušajte ponovno ili nas kontaktirajte telefonom.
         </div>
       )}

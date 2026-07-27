@@ -27,8 +27,18 @@
   --color-neutral-900: #171717;
   --color-neutral-950: #0a0a0a;
 
+  /* Smjer "Inženjerska preciznost" (K1) — globalni tokeni.
+     Papirnata tehnička osnova + antracit za tematsko odvajanje sekcija. */
+  --color-paper: #fbfbf9;
+  --color-ink: #141414;
+  --color-anthracite: #232528;
+  --color-hairline: #e2e0da;
+  --color-hairline-dark: rgba(251, 251, 249, 0.16);
+  --color-red: #c41e24;
+
   /* Typography */
-  --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
+  --font-sans: var(--font-archivo), system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, monospace;
 
   /* Spacing - Container */
   --container-padding: 1rem;
@@ -54,10 +64,46 @@ html {
 
 body {
   font-family: var(--font-sans);
-  background-color: var(--color-neutral-50);
-  color: var(--color-neutral-900);
+  background-color: var(--color-paper);
+  color: var(--color-ink);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scroll-reveal (IntersectionObserver u components/site/Reveal.tsx) */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 0.7s cubic-bezier(0.4, 0, 0.2, 1),
+    transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: var(--reveal-delay, 0s);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* ISO 834 krivulja — iscrtavanje na učitavanje (dijeli animaciju s K1) */
+.curve-draw {
+  stroke-dasharray: 1200;
+  animation: k1-draw 2.4s cubic-bezier(0.4, 0, 0.2, 1) 0.3s both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .curve-draw {
+    animation: none;
+    stroke-dashoffset: 0;
+  }
 }
 
 /* Selection color */

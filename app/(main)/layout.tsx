@@ -1,7 +1,8 @@
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-import ConceptSwitcher from "@/components/ConceptSwitcher";
 
+// Odluka klijenta (srpanj 2026.): smjer K1 "Inženjerska preciznost" postao je
+// glavna stranica — ConceptSwitcher je uklonjen, koncepti ostaju na /koncept-*.
 export default function MainLayout({
   children,
 }: {
@@ -12,7 +13,6 @@ export default function MainLayout({
       <Header />
       <main className="flex-1">{children}</main>
       <Footer />
-      <ConceptSwitcher />
     </>
   );
 }

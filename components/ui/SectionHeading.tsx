@@ -6,6 +6,7 @@ interface SectionHeadingProps {
   className?: string;
 }
 
+// Naslov sekcije: mono crveni natpis + čvrst naslov (K1 idiom).
 export default function SectionHeading({
   title,
   subtitle,
@@ -16,11 +17,11 @@ export default function SectionHeading({
   return (
     <div className={`${centered ? "text-center" : ""} ${className}`}>
       {subtitle && (
-        <p className="text-brand-500 font-semibold text-sm uppercase tracking-wider mb-2">
+        <p className="font-mono text-[11px] uppercase tracking-[0.18em] text-red mb-3">
           {subtitle}
         </p>
       )}
-      <h2 className="text-3xl md:text-4xl font-bold text-neutral-900">{title}</h2>
+      <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-ink">{title}</h2>
       {description && (
         <p
           className={`mt-4 text-lg text-neutral-600 ${

@@ -1,7 +1,9 @@
 import { Metadata } from "next";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import PageHeader from "@/components/sections/PageHeader";
 import ContactForm from "@/components/forms/ContactForm";
+import Reveal from "@/components/site/Reveal";
+import SectionHead from "@/components/site/SectionHead";
+import { container, monoLabel } from "@/components/site/tokens";
 
 export const metadata: Metadata = {
   title: "Kontakt",
@@ -11,21 +13,18 @@ export const metadata: Metadata = {
 
 const contactInfo = [
   {
-    icon: Phone,
     title: "Telefon",
     content: "+385 1 3496 811",
     href: "tel:+38513496811",
     description: "Pon - Pet, 08:00 - 16:00",
   },
   {
-    icon: Mail,
     title: "Email",
     content: "info@fsb-zagreb.hr",
     href: "mailto:info@fsb-zagreb.hr",
     description: "Odgovaramo unutar 24 sata",
   },
   {
-    icon: Clock,
     title: "Radno vrijeme",
     content: "Pon - Pet: 08:00 - 16:00",
     description: "Subota i nedjelja: zatvoreno",
@@ -51,140 +50,132 @@ const locations = [
 
 export default function KontaktPage() {
   return (
-    <>
+    <div className="bg-paper text-ink">
       <PageHeader
         title="Kontaktirajte nas"
         subtitle="Kontakt"
         description="Stojimo vam na raspolaganju za sve upite o protupožarnoj zaštiti."
       />
 
-      <section className="py-20 md:py-28 bg-white">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          {/* Contact cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-12">
-            {contactInfo.map((item) => {
-              const Icon = item.icon;
-              const content = (
-                <div className="p-6 bg-neutral-50 rounded-2xl hover:bg-brand-50 transition-colors h-full">
-                  <div className="w-12 h-12 bg-brand-100 rounded-xl flex items-center justify-center mb-4">
-                    <Icon className="h-6 w-6 text-brand-500" />
-                  </div>
-                  <h3 className="font-semibold text-neutral-900">{item.title}</h3>
-                  <p className="mt-1 text-brand-600 font-medium">{item.content}</p>
-                  {item.description && (
-                    <p className="mt-1 text-sm text-neutral-500">{item.description}</p>
-                  )}
-                </div>
-              );
-
-              if (item.href) {
-                return (
-                  <a
-                    key={item.title}
-                    href={item.href}
-                    target={item.href.startsWith("http") ? "_blank" : undefined}
-                    rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined}
-                    className="block"
-                  >
-                    {content}
-                  </a>
-                );
-              }
-
-              return <div key={item.title}>{content}</div>;
-            })}
-          </div>
-
-          {/* Location cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-16">
-            {locations.map((location) => (
-              <a
-                key={location.name}
-                href={location.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block"
-              >
-                <div className="p-6 bg-neutral-50 rounded-2xl hover:bg-brand-50 transition-colors h-full">
-                  <div className="w-12 h-12 bg-brand-100 rounded-xl flex items-center justify-center mb-4">
-                    <MapPin className="h-6 w-6 text-brand-500" />
-                  </div>
-                  <h3 className="font-semibold text-neutral-900">{location.name}</h3>
-                  <p className="mt-1 text-brand-600 font-medium">{location.address}</p>
-                  <p className="mt-1 text-sm text-neutral-500">{location.city}</p>
-                </div>
-              </a>
-            ))}
-          </div>
-
-          {/* Form and map */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            {/* Contact form */}
-            <div>
-              <h2 className="text-2xl font-bold text-neutral-900 mb-2">
-                Pošaljite upit
-              </h2>
-              <p className="text-neutral-600 mb-6">
-                Ispunite obrazac i javit ćemo vam se u najkraćem roku.
-              </p>
-              <ContactForm />
-            </div>
-
-            {/* Maps */}
-            <div>
-              <h2 className="text-2xl font-bold text-neutral-900 mb-2">
-                Naše lokacije
-              </h2>
-              <p className="text-neutral-600 mb-6">
-                Posjetite nas na jednoj od naših lokacija u Zagrebu.
-              </p>
-              <div className="space-y-4">
-                {locations.map((location) => (
-                  <div key={location.name}>
-                    <div className="flex items-center gap-2 mb-2">
-                      <MapPin className="h-4 w-4 text-brand-500" />
-                      <span className="font-medium text-neutral-900">{location.name}</span>
-                      <span className="text-neutral-500">—</span>
-                      <span className="text-neutral-600">{location.address}</span>
-                    </div>
-                    <div className="relative aspect-video rounded-xl overflow-hidden bg-neutral-100">
-                      <iframe
-                        src={location.embedUrl}
-                        width="100%"
-                        height="100%"
-                        style={{ border: 0 }}
-                        allowFullScreen
-                        loading="lazy"
-                        referrerPolicy="no-referrer-when-downgrade"
-                        title={`Lokacija ${location.name}`}
-                      />
-                    </div>
-                  </div>
-                ))}
+      {/* ── 1.0 Kontakt podaci — spec-tablica ──────────── */}
+      <section className={`${container} py-20 md:py-28`}>
+        <Reveal>
+          <SectionHead index="1.0" title="Kontakt podaci" note="Odgovaramo unutar 24 sata" />
+        </Reveal>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-px bg-hairline border border-hairline">
+          {contactInfo.map((item, i) => {
+            const inner = (
+              <div className="bg-white p-6 h-full transition-colors group-hover:bg-paper">
+                <span className="font-mono text-[11px] uppercase tracking-[0.18em] text-red">
+                  {String(i + 1).padStart(2, "0")} / {item.title}
+                </span>
+                <p className="mt-3 text-lg font-bold tracking-tight">{item.content}</p>
+                {item.description && (
+                  <p className="mt-1 font-mono text-[11px] uppercase tracking-[0.14em] text-neutral-400">
+                    {item.description}
+                  </p>
+                )}
               </div>
-            </div>
-          </div>
+            );
+
+            if (item.href) {
+              return (
+                <Reveal key={item.title} delay={i * 0.08} className="bg-white">
+                  <a href={item.href} className="group block h-full">
+                    {inner}
+                  </a>
+                </Reveal>
+              );
+            }
+
+            return (
+              <Reveal key={item.title} delay={i * 0.08} className="bg-white">
+                {inner}
+              </Reveal>
+            );
+          })}
         </div>
       </section>
 
-      {/* Emergency CTA */}
-      <section className="py-16 bg-neutral-900 text-white">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-2xl mx-auto">
-            <h2 className="text-2xl font-bold mb-4">Hitni slučajevi?</h2>
-            <p className="text-neutral-400 mb-6">
-              Za hitne situacije nazovite nas izravno. Dostupni smo za konzultacije i izvan radnog vremena.
+      {/* ── 2.0 Pošaljite upit — obrazac i lokacije ────── */}
+      <section className={`${container} pb-20 md:pb-28`}>
+        <Reveal>
+          <SectionHead index="2.0" title="Pošaljite upit" note="Obrazac i lokacije" />
+        </Reveal>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          {/* Obrazac */}
+          <Reveal>
+            <p className="text-neutral-600 mb-8">
+              Ispunite obrazac i javit ćemo vam se u najkraćem roku.
+            </p>
+            <ContactForm />
+          </Reveal>
+
+          {/* Karte */}
+          <Reveal delay={0.08}>
+            <p className="text-neutral-600 mb-8">
+              Posjetite nas na jednoj od naših lokacija u Zagrebu.
+            </p>
+            <div className="space-y-8">
+              {locations.map((location, i) => (
+                <div key={location.name}>
+                  <div className="flex flex-wrap items-baseline justify-between gap-2 mb-3">
+                    <p className="font-mono text-[11px] uppercase tracking-[0.15em]">
+                      <span className="text-red">L.{String(i + 1).padStart(2, "0")}</span>{" "}
+                      <span className="font-semibold text-ink">{location.name}</span>{" "}
+                      <span className="text-neutral-400">
+                        — {location.address}, {location.city}
+                      </span>
+                    </p>
+                    <a
+                      href={location.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-mono text-[11px] uppercase tracking-[0.15em] text-red hover:opacity-80 transition-opacity"
+                    >
+                      Karta ↗
+                    </a>
+                  </div>
+                  <div className="relative aspect-video border border-hairline bg-white">
+                    <iframe
+                      src={location.embedUrl}
+                      width="100%"
+                      height="100%"
+                      className="absolute inset-0 h-full w-full"
+                      style={{ border: 0 }}
+                      allowFullScreen
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      title={`Lokacija ${location.name}`}
+                    />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* ── Hitni slučajevi — tinta ────────────────────── */}
+      <section className="bg-ink text-white">
+        <div className={`${container} py-20 md:py-24`}>
+          <Reveal>
+            <span className={monoLabel}>Hitni slučajevi</span>
+            <h2 className="mt-5 text-3xl md:text-4xl font-extrabold tracking-tight max-w-2xl leading-[1.05]">
+              Za hitne situacije nazovite nas izravno.
+            </h2>
+            <p className="mt-4 text-neutral-400 max-w-xl leading-relaxed">
+              Dostupni smo za konzultacije i izvan radnog vremena.
             </p>
             <a
               href="tel:+38513496811"
-              className="inline-flex items-center gap-3 bg-brand-500 hover:bg-brand-600 text-white px-8 py-4 rounded-full font-semibold transition-colors"
+              className="mt-8 inline-block px-7 py-3.5 bg-red text-white font-semibold hover:opacity-90 transition-opacity"
             >
-              <Phone className="h-5 w-5" />
-              <span>+385 1 3496 811</span>
+              +385 1 3496 811
             </a>
-          </div>
+          </Reveal>
         </div>
       </section>
-    </>
+    </div>
   );
 }

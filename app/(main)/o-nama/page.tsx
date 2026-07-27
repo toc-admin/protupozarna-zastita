@@ -1,10 +1,13 @@
 import { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import PageHeader from "@/components/sections/PageHeader";
 import Stats from "@/components/sections/Stats";
 import Certifications from "@/components/sections/Certifications";
 import Director from "@/components/sections/Director";
-import ContactCTA from "@/components/sections/ContactCTA";
+import Reveal from "@/components/site/Reveal";
+import SectionHead from "@/components/site/SectionHead";
+import { container, monoLabel } from "@/components/site/tokens";
 
 export const metadata: Metadata = {
   title: "O nama",
@@ -12,97 +15,140 @@ export const metadata: Metadata = {
     "FSB d.o.o. - 20 godina iskustva u proizvodnji i izvođenju pasivne protupožarne zaštite. Upoznajte naš tim i saznajte više o našim certifikatima i kvalifikacijama.",
 };
 
+// Vrijednosti kao numerirane ćelije spec-tablice.
+const values = [
+  {
+    title: "Stručnost",
+    text: "Kontinuirano usavršavanje i praćenje najnovijih standarda u industriji.",
+  },
+  {
+    title: "Kvaliteta",
+    text: "Korištenje samo provjerenih materijala i tehnologija vrhunske kvalitete.",
+  },
+  {
+    title: "Pouzdanost",
+    text: "Ispunjavanje obećanja i poštivanje dogovorenih rokova i uvjeta.",
+  },
+  {
+    title: "Partnerstvo",
+    text: "Izgradnja dugoročnih odnosa s klijentima temeljenih na povjerenju.",
+  },
+];
+
 export default function ONamaPage() {
   return (
-    <>
+    <div className="bg-paper text-ink">
       <PageHeader
         title="O nama"
         subtitle="FSB d.o.o."
         description="Dva desetljeća gradimo povjerenje kroz izvrsnost u pasivnoj protupožarnoj zaštiti."
       />
 
-      {/* Story section with image */}
-      <section className="py-20 md:py-28 bg-white">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold text-neutral-900 mb-6">Naša priča</h2>
-              <div className="space-y-4 text-neutral-600">
-                <p>
-                  FSB d.o.o. osnovan je s ciljem pružanja vrhunskih usluga pasivne
-                  protupožarne zaštite na hrvatskom tržištu. Od samog početka, naš fokus bio
-                  je na kvaliteti, stručnosti i pouzdanosti.
-                </p>
-                <p>
-                  Tijekom 20 godina rada realizirali smo preko 300 projekata za
-                  najzahtjevnije klijente - od stambenih zgrada i zdravstvenih ustanova do
-                  tunela i industrijskih objekata.
-                </p>
-                <p>
-                  Kao proizvođač vidimo širu sliku: od razvoja proizvoda u vlastitom R&D
-                  timu, preko ispitivanja i certifikacije u akreditiranim laboratorijima,
-                  do vođenja projekta i ugradnje. Proizvođač je partner, ne samo dobavljač.
-                </p>
-              </div>
+      {/* ── 1.0 Naša priča ─────────────────────────────── */}
+      <section className={`${container} py-20 md:py-28`}>
+        <Reveal>
+          <SectionHead index="1.0" title="Naša priča" note="20 godina iskustva" />
+        </Reveal>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <Reveal>
+            <div className="space-y-4 text-neutral-600 leading-relaxed">
+              <p>
+                FSB d.o.o. osnovan je s ciljem pružanja vrhunskih usluga pasivne
+                protupožarne zaštite na hrvatskom tržištu. Od samog početka, naš fokus bio
+                je na kvaliteti, stručnosti i pouzdanosti.
+              </p>
+              <p>
+                Tijekom 20 godina rada realizirali smo preko 300 projekata za
+                najzahtjevnije klijente - od stambenih zgrada i zdravstvenih ustanova do
+                tunela i industrijskih objekata.
+              </p>
+              <p>
+                Kao proizvođač vidimo širu sliku: od razvoja proizvoda u vlastitom R&D
+                timu, preko ispitivanja i certifikacije u akreditiranim laboratorijima,
+                do vođenja projekta i ugradnje. Proizvođač je partner, ne samo dobavljač.
+              </p>
             </div>
-            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+          </Reveal>
+          <Reveal delay={0.08}>
+            <div className="relative aspect-[4/3] overflow-hidden border border-hairline">
               <Image
                 src="/images/fsb/rjesenja/parapet-1.jpg"
                 alt="FSB tim na poslu"
                 fill
-                className="object-cover"
+                sizes="(min-width: 1024px) 50vw, 100vw"
+                className="object-cover grayscale-[35%]"
               />
             </div>
-          </div>
+          </Reveal>
         </div>
       </section>
 
+      {/* ── Traka brojki — antracit (tematsko odvajanje) ── */}
       <Stats />
 
-      {/* Mission & Values */}
-      <section className="py-20 md:py-28 bg-neutral-50">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-          <div className="max-w-2xl mb-12">
-            <h2 className="text-3xl font-bold text-neutral-900 mb-4">Naša misija</h2>
-            <p className="text-lg text-neutral-600">
-              Osigurati najvišu razinu protupožarne zaštite za sve vrste objekata,
-              kombinirajući stručno znanje, kvalitetne materijale i profesionalnu izvedbu.
-            </p>
-          </div>
-
-          <h3 className="text-xl font-bold text-neutral-900 mb-6">Naše vrijednosti</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            <div className="p-6 bg-white rounded-2xl border border-neutral-200">
-              <h4 className="font-semibold text-neutral-900 mb-2">Stručnost</h4>
-              <p className="text-sm text-neutral-600">
-                Kontinuirano usavršavanje i praćenje najnovijih standarda u industriji.
-              </p>
-            </div>
-            <div className="p-6 bg-white rounded-2xl border border-neutral-200">
-              <h4 className="font-semibold text-neutral-900 mb-2">Kvaliteta</h4>
-              <p className="text-sm text-neutral-600">
-                Korištenje samo provjerenih materijala i tehnologija vrhunske kvalitete.
-              </p>
-            </div>
-            <div className="p-6 bg-white rounded-2xl border border-neutral-200">
-              <h4 className="font-semibold text-neutral-900 mb-2">Pouzdanost</h4>
-              <p className="text-sm text-neutral-600">
-                Ispunjavanje obećanja i poštivanje dogovorenih rokova i uvjeta.
-              </p>
-            </div>
-            <div className="p-6 bg-white rounded-2xl border border-neutral-200">
-              <h4 className="font-semibold text-neutral-900 mb-2">Partnerstvo</h4>
-              <p className="text-sm text-neutral-600">
-                Izgradnja dugoročnih odnosa s klijentima temeljenih na povjerenju.
-              </p>
-            </div>
-          </div>
+      {/* ── 2.0 Misija i vrijednosti ───────────────────── */}
+      <section className={`${container} py-20 md:py-28`}>
+        <Reveal>
+          <SectionHead index="2.0" title="Misija i vrijednosti" note="Kako radimo" />
+        </Reveal>
+        <Reveal>
+          <p className="max-w-2xl text-lg text-neutral-600 mb-12">
+            Osigurati najvišu razinu protupožarne zaštite za sve vrste objekata,
+            kombinirajući stručno znanje, kvalitetne materijale i profesionalnu izvedbu.
+          </p>
+        </Reveal>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-px bg-hairline border border-hairline">
+          {values.map((value, i) => (
+            <Reveal key={value.title} delay={i * 0.08} className="bg-white">
+              <div className="p-6 h-full">
+                <span className="font-mono text-[12px] text-red">
+                  V.{String(i + 1).padStart(2, "0")}
+                </span>
+                <h4 className="mt-2 font-bold tracking-tight">{value.title}</h4>
+                <p className="mt-2 text-sm text-neutral-600 leading-relaxed">
+                  {value.text}
+                </p>
+              </div>
+            </Reveal>
+          ))}
         </div>
       </section>
 
+      {/* ── 3.0 Certifikati ────────────────────────────── */}
       <Certifications />
+
+      {/* ── 4.0 Vodstvo ────────────────────────────────── */}
       <Director />
-      <ContactCTA />
-    </>
+
+      {/* ── Kontakt CTA — tinta ────────────────────────── */}
+      <section className="bg-ink text-white">
+        <div className={`${container} py-20 md:py-28`}>
+          <Reveal>
+            <span className={monoLabel}>Kontaktirajte nas</span>
+            <h2 className="mt-5 text-4xl md:text-5xl font-extrabold tracking-tight max-w-3xl leading-[1.05]">
+              Trebate stručnu pomoć za protupožarnu zaštitu?
+            </h2>
+            <p className="mt-6 text-lg text-neutral-400 max-w-2xl leading-relaxed">
+              Kontaktirajte nas za besplatne konzultacije. Naš tim stručnjaka stoji vam
+              na raspolaganju za sve vaše upite i projekte.
+            </p>
+            <div className="mt-9 flex flex-wrap gap-3">
+              <Link
+                href="/kontakt"
+                className="px-7 py-3.5 bg-red text-white font-semibold hover:opacity-90 transition-opacity"
+              >
+                Zatražite ponudu
+              </Link>
+              <a
+                href="tel:+38513496811"
+                className="px-7 py-3.5 font-semibold border border-white/30 hover:bg-white/10 transition-colors"
+              >
+                +385 1 3496 811
+              </a>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+    </div>
   );
 }

@@ -11,26 +11,24 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children: React.ReactNode;
 }
 
+// Gumbi u jeziku tehničkog lista: ravni rubovi, bez sjena.
 const variantStyles: Record<ButtonVariant, string> = {
-  primary:
-    "bg-brand-500 text-white hover:bg-brand-600 active:bg-brand-700 shadow-sm",
-  secondary:
-    "bg-neutral-900 text-white hover:bg-neutral-800 active:bg-neutral-700 shadow-sm",
-  outline:
-    "border-2 border-brand-500 text-brand-500 hover:bg-brand-50 active:bg-brand-100",
-  ghost: "text-neutral-700 hover:bg-neutral-100 active:bg-neutral-200",
+  primary: "bg-red text-white hover:opacity-90 active:opacity-80",
+  secondary: "bg-ink text-white hover:bg-anthracite active:bg-anthracite",
+  outline: "border border-ink text-ink hover:bg-neutral-100 active:bg-neutral-200",
+  ghost: "text-ink hover:bg-neutral-100 active:bg-neutral-200",
 };
 
 const sizeStyles: Record<ButtonSize, string> = {
   sm: "px-4 py-2 text-sm",
   md: "px-6 py-2.5 text-base",
-  lg: "px-8 py-3 text-lg",
+  lg: "px-7 py-3.5 text-lg",
 };
 
 const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   ({ variant = "primary", size = "md", href, children, className = "", ...props }, ref) => {
     const baseStyles =
-      "inline-flex items-center justify-center font-medium rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed";
+      "inline-flex items-center justify-center font-semibold transition-colors focus:outline-none focus-visible:outline-2 focus-visible:outline-red disabled:opacity-50 disabled:cursor-not-allowed";
 
     const combinedStyles = `${baseStyles} ${variantStyles[variant]} ${sizeStyles[size]} ${className}`;
 

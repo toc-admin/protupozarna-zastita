@@ -1,11 +1,19 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Archivo, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 import StructuredData from "@/components/StructuredData";
 
-const inter = Inter({
-  variable: "--font-inter",
+// Potpisna tipografija smjera "Inženjerska preciznost" — na cijeloj stranici.
+const archivo = Archivo({
+  variable: "--font-archivo",
   subsets: ["latin", "latin-ext"],
+  display: "swap",
+});
+
+const plexMono = IBM_Plex_Mono({
+  variable: "--font-plex-mono",
+  subsets: ["latin", "latin-ext"],
+  weight: ["400", "500", "600"],
   display: "swap",
 });
 
@@ -64,7 +72,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="hr" className={`${inter.variable} h-full`}>
+    <html lang="hr" className={`${archivo.variable} ${plexMono.variable} h-full`}>
       <head>
         <StructuredData />
       </head>
