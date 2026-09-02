@@ -6,7 +6,6 @@ const FOOTER_NAV = {
     { name: "Izvođenje radova", href: "/usluge/izvodjenje-radova-protupozarne-zastite" },
     { name: "Savjetovanje i optimizacija", href: "/usluge/optimizacija-troskova-protupozarne-zastite" },
     { name: "FSB Academy", href: "/usluge/fsb-academy" },
-    { name: "Razvoj i proizvodnja", href: "/usluge/razvoj-i-proizvodnja" },
   ],
   proizvodi: [
     { name: "Protupožarna boja", href: "/proizvodi/protupozarna-boja" },
@@ -55,8 +54,8 @@ export default function Footer() {
               </span>
             </Link>
             <p className="mt-5 text-sm text-neutral-400 leading-relaxed">
-              Proizvođač i izvođač pasivne protupožarne zaštite s 20 godina
-              iskustva. Proizvođač je partner, ne samo dobavljač.
+              Izvođač pasivne protupožarne zaštite s 20 godina iskustva.
+              Svi sustavi moraju raditi kao cjelina.
             </p>
             <address className="mt-6 flex flex-col gap-2.5 font-mono text-[12px] not-italic tracking-[0.08em] text-neutral-300">
               <a href="tel:+38513496811" className="hover:text-white transition-colors">

@@ -159,6 +159,24 @@ export default async function SolutionPage({ params }: Props) {
                 </dl>
               </div>
 
+              {/* Vlastiti proizvod — vanjska poveznica na brend */}
+              {solution.externalLink && (
+                <div className="bg-paper p-6">
+                  <span className={monoLabel}>Vlastiti proizvod</span>
+                  <p className="mt-4 text-sm text-neutral-600 leading-relaxed">
+                    {solution.externalLink.label}
+                  </p>
+                  <a
+                    href={solution.externalLink.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-4 inline-block font-mono text-[12px] uppercase tracking-[0.14em] text-red hover:opacity-80 transition-opacity"
+                  >
+                    fsb-doors.com ↗
+                  </a>
+                </div>
+              )}
+
               {/* Dokumentacija — antracit umetak */}
               <div className="bg-anthracite text-paper p-6">
                 <span className={monoLabel}>Dokumentacija</span>

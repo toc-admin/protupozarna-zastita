@@ -10,7 +10,7 @@ import { getAllServices } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Usluge",
   description:
-    "FSB d.o.o. nudi kompletan spektar usluga - izvođenje radova, savjetovanje i optimizacija troškova, razvoj i proizvodnja te FSB Academy.",
+    "FSB d.o.o. nudi kompletan spektar usluga - izvođenje radova, savjetovanje i optimizacija troškova te FSB Academy.",
 };
 
 // Popis usluga kao redovi spec-tablice (U.01–U.04) — smjer K1.
@@ -22,7 +22,7 @@ export default function UslugePage() {
       <PageHeader
         title="Naše usluge"
         subtitle="Usluge · FSB d.o.o."
-        description="Kompletan spektar usluga pasivne protupožarne zaštite - od razvoja i proizvodnje do savjetovanja i izvođenja."
+        description="Kompletan spektar usluga pasivne protupožarne zaštite - od savjetovanja i optimizacije troškova do izvođenja radova."
       />
 
       {/* ── 1.0 Popis usluga: redovi spec-tablice ──────── */}

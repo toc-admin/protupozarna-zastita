@@ -12,7 +12,7 @@ import { container, monoLabel } from "@/components/site/tokens";
 export const metadata: Metadata = {
   title: "O nama",
   description:
-    "FSB d.o.o. - 20 godina iskustva u proizvodnji i izvođenju pasivne protupožarne zaštite. Upoznajte naš tim i saznajte više o našim certifikatima i kvalifikacijama.",
+    "FSB d.o.o. - 20 godina iskustva u izvođenju pasivne protupožarne zaštite. Upoznajte naš tim i saznajte više o našim certifikatima i kvalifikacijama.",
 };
 
 // Vrijednosti kao numerirane ćelije spec-tablice.
@@ -63,9 +63,9 @@ export default function ONamaPage() {
                 tunela i industrijskih objekata.
               </p>
               <p>
-                Kao proizvođač vidimo širu sliku: od razvoja proizvoda u vlastitom R&D
-                timu, preko ispitivanja i certifikacije u akreditiranim laboratorijima,
-                do vođenja projekta i ugradnje. Proizvođač je partner, ne samo dobavljač.
+                Svi sustavi moraju raditi kao cjelina — zato uz izvedbu nudimo i
+                savjetovanje kroz sve faze projekta. Uz to, kroz vlastiti brend
+                FSB Doors nudimo i vlastiti proizvod: protupožarnu bravariju.
               </p>
             </div>
           </Reveal>

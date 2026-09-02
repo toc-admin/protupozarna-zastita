@@ -30,9 +30,8 @@ export default function Home() {
               Pasivna protupožarna zaštita
             </h1>
             <p className="mt-7 text-lg text-neutral-600 max-w-lg leading-relaxed">
-              Sigurnost se mjeri u minutama. Proizvodimo i izvodimo sustave
-              pasivne protupožarne zaštite — ispitane u akreditiranim
-              laboratorijima i certificirane prema europskim normama.
+              Sigurnost se mjeri u minutama. Izvodimo sustave pasivne
+              protupožarne zaštite — certificirane prema europskim normama.
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
               <Link
@@ -69,7 +68,7 @@ export default function Home() {
       {/* ── 1.0 Usluge: redovi spec-tablice ────────────── */}
       <section className={`${container} py-20 md:py-28`}>
         <Reveal>
-          <SectionHead index="1.0" title="Usluge" note="Od razvoja do ugradnje" />
+          <SectionHead index="1.0" title="Usluge" note="Od savjetovanja do ugradnje" />
         </Reveal>
         <Reveal>
           <div className="border-t border-hairline">
@@ -105,7 +104,7 @@ export default function Home() {
               dark
               index="2.0"
               title="Sustav kao cjelina"
-              note="Perspektiva proizvođača"
+              note="Kako vodimo projekt"
             />
           </Reveal>
           <Reveal>
@@ -117,10 +116,10 @@ export default function Home() {
           </Reveal>
           <ol className="grid grid-cols-1 md:grid-cols-4 border-t border-paper/60">
             {[
-              ["Razvoj", "Vlastiti R&D tim razvija proizvod — od prvog crteža do prototipa."],
-              ["Ispitivanje", "Vatrootpornost se ispituje u vanjskim akreditiranim laboratorijima."],
-              ["Certifikacija", "Sustavi se certificiraju prema europskim normama."],
-              ["Ugradnja", "Vlastite ekipe ugrađuju sustav i predaju kompletnu dokumentaciju."],
+              ["Savjetovanje", "Pregled projekta i optimizacija troškova bez kompromisa na sigurnosti."],
+              ["Odabir sustava", "Certificirani sustavi provjerenih proizvođača, usklađeni sa zahtjevima projekta."],
+              ["Ugradnja", "Vlastite certificirane ekipe izvode radove prema uputama proizvođača."],
+              ["Dokumentacija", "Zapisnici, izjave o izvedenim radovima i kompletna primopredajna dokumentacija."],
             ].map(([title, text], i) => (
               <li
                 key={title}

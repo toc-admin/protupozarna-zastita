@@ -81,7 +81,7 @@ export default function RjesenjaPage() {
       <section className="bg-anthracite text-paper border-y border-hairline-dark">
         <div className={`${container} py-14 md:py-16 grid grid-cols-1 md:grid-cols-12 gap-6 items-baseline`}>
           <Reveal className="md:col-span-8">
-            <span className={monoLabel}>Napomena proizvođača</span>
+            <span className={monoLabel}>Napomena izvođača</span>
             <p className="mt-4 text-lg md:text-xl font-semibold leading-relaxed max-w-2xl">
               Svako rješenje ispitano je kao sustav — brtvljenje, obloga ili
               vrata vrijede onoliko koliko vrijedi njihova ugradnja.

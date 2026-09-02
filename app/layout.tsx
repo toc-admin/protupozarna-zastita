@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: "%s | FSB d.o.o.",
   },
   description:
-    "FSB d.o.o. - proizvođač i izvođač pasivne protupožarne zaštite s 20 godina iskustva. Izvođenje radova, savjetovanje i optimizacija troškova, razvoj i proizvodnja.",
+    "FSB d.o.o. - izvođač pasivne protupožarne zaštite s 20 godina iskustva. Izvođenje radova, savjetovanje i optimizacija troškova te FSB Academy.",
   keywords: [
     "protupožarna zaštita",
     "protupožarno brtvljenje",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     siteName: "FSB d.o.o.",
     title: "FSB d.o.o. | Stručnjaci za protupožarnu zaštitu",
     description:
-      "Proizvođač i izvođač pasivne protupožarne zaštite s 20 godina iskustva. Izvođenje radova, savjetovanje i optimizacija troškova, razvoj i proizvodnja.",
+      "Izvođač pasivne protupožarne zaštite s 20 godina iskustva. Izvođenje radova, savjetovanje i optimizacija troškova te FSB Academy.",
   },
   twitter: {
     card: "summary_large_image",

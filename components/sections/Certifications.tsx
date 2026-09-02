@@ -10,7 +10,7 @@ const certifications = [
   },
   {
     title: "Ovlaštenja MUP-a",
-    description: "Ovlaštenje za ispitivanje protupožarnih sustava",
+    description: "Ovlaštenje za izvođenje radova protupožarne zaštite",
   },
   {
     title: "ETA Certifikati",
