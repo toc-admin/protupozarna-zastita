@@ -16,7 +16,6 @@ export default function ContactForm() {
     email: "",
     phone: "",
     company: "",
-    subject: "",
     message: "",
   });
 
@@ -36,7 +35,6 @@ export default function ContactForm() {
         email: "",
         phone: "",
         company: "",
-        subject: "",
         message: "",
       });
     } catch {
@@ -45,7 +43,7 @@ export default function ContactForm() {
   };
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     setFormData((prev) => ({
       ...prev,
@@ -143,29 +141,8 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label htmlFor="subject" className={labelClass}>
-          <span className="text-red">05 /</span> Predmet upita *
-        </label>
-        <select
-          id="subject"
-          name="subject"
-          required
-          value={formData.subject}
-          onChange={handleChange}
-          className={fieldClass}
-        >
-          <option value="">Odaberite predmet upita</option>
-          <option value="izvodjenje">Izvođenje radova</option>
-          <option value="optimizacija">Savjetovanje i optimizacija troškova</option>
-          <option value="edukacija">FSB Academy</option>
-          <option value="proizvodi">Proizvodi</option>
-          <option value="ostalo">Ostalo</option>
-        </select>
-      </div>
-
-      <div>
         <label htmlFor="message" className={labelClass}>
-          <span className="text-red">06 /</span> Vaša poruka *
+          <span className="text-red">05 /</span> Vaša poruka *
         </label>
         <textarea
           id="message"
@@ -175,7 +152,7 @@ export default function ContactForm() {
           value={formData.message}
           onChange={handleChange}
           className={`${fieldClass} resize-none`}
-          placeholder="Opišite vaš upit ili projekt..."
+          placeholder="Ukratko opišite zbog čega se javljate..."
         />
       </div>
 

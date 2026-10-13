@@ -8,7 +8,7 @@ import { getAllProjects, getProjectCategories } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Projekti",
   description:
-    "Pregledajte naše uspješno realizirane projekte protupožarne zaštite - stambene zgrade, tuneli, bolnice, poslovne zgrade i javna infrastruktura.",
+    "Pregledajte naše reference protupožarne zaštite prema područjima primjene - od bolnica i stambenih zgrada do prometne infrastrukture.",
 };
 
 // Registar projekata — smjer K1: dosje-redovi s mono činjenicama,
@@ -22,7 +22,7 @@ export default function ProjektiPage() {
       <PageHeader
         title="Naši projekti"
         subtitle="Portfolio"
-        description="Više od 300 uspješno realiziranih projekata u različitim sektorima."
+        description="Reference prema područjima primjene — od zdravstvenih ustanova do prometne infrastrukture."
       />
 
       <section className={`${container} py-16 md:py-24`}>

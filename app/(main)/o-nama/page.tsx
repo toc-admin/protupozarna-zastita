@@ -12,7 +12,7 @@ import { container, monoLabel } from "@/components/site/tokens";
 export const metadata: Metadata = {
   title: "O nama",
   description:
-    "FSB d.o.o. - 20 godina iskustva u izvođenju pasivne protupožarne zaštite. Upoznajte naš tim i saznajte više o našim certifikatima i kvalifikacijama.",
+    "FSB d.o.o. - izvođač pasivne protupožarne zaštite. Upoznajte naš tim i saznajte više o našim certifikatima i kvalifikacijama.",
 };
 
 // Vrijednosti kao numerirane ćelije spec-tablice.
@@ -41,13 +41,13 @@ export default function ONamaPage() {
       <PageHeader
         title="O nama"
         subtitle="FSB d.o.o."
-        description="Dva desetljeća gradimo povjerenje kroz izvrsnost u pasivnoj protupožarnoj zaštiti."
+        description="Gradimo povjerenje kroz izvrsnost u pasivnoj protupožarnoj zaštiti."
       />
 
       {/* ── 1.0 Naša priča ─────────────────────────────── */}
       <section className={`${container} py-20 md:py-28`}>
         <Reveal>
-          <SectionHead index="1.0" title="Naša priča" note="20 godina iskustva" />
+          <SectionHead index="1.0" title="Naša priča" note="FSB d.o.o." />
         </Reveal>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <Reveal>
@@ -58,9 +58,8 @@ export default function ONamaPage() {
                 je na kvaliteti, stručnosti i pouzdanosti.
               </p>
               <p>
-                Tijekom 20 godina rada realizirali smo preko 300 projekata za
-                najzahtjevnije klijente - od stambenih zgrada i zdravstvenih ustanova do
-                tunela i industrijskih objekata.
+                Projekte realiziramo za najzahtjevnije klijente - od stambenih
+                zgrada i zdravstvenih ustanova do tunela i industrijskih objekata.
               </p>
               <p>
                 Svi sustavi moraju raditi kao cjelina — zato uz izvedbu nudimo i

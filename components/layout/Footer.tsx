@@ -54,7 +54,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="mt-5 text-sm text-neutral-400 leading-relaxed">
-              Izvođač pasivne protupožarne zaštite s 20 godina iskustva.
+              Izvođač pasivne protupožarne zaštite.
               Svi sustavi moraju raditi kao cjelina.
             </p>
             <address className="mt-6 flex flex-col gap-2.5 font-mono text-[12px] not-italic tracking-[0.08em] text-neutral-300">

@@ -55,7 +55,7 @@ export function generateLocalBusinessSchema() {
     "@type": "LocalBusiness",
     name: "FSB d.o.o.",
     description:
-      "Proizvođač i izvođač pasivne protupožarne zaštite s 20 godina iskustva.",
+      "Proizvođač i izvođač pasivne protupožarne zaštite.",
     url: BASE_URL,
     telephone: "+385 1 3496 811",
     email: "info@fsb-zagreb.hr",

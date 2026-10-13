@@ -77,27 +77,6 @@ export default function RjesenjaPage() {
         </div>
       </section>
 
-      {/* ── Sustav kao cjelina — antracit umetak ───────── */}
-      <section className="bg-anthracite text-paper border-y border-hairline-dark">
-        <div className={`${container} py-14 md:py-16 grid grid-cols-1 md:grid-cols-12 gap-6 items-baseline`}>
-          <Reveal className="md:col-span-8">
-            <span className={monoLabel}>Napomena izvođača</span>
-            <p className="mt-4 text-lg md:text-xl font-semibold leading-relaxed max-w-2xl">
-              Svako rješenje ispitano je kao sustav — brtvljenje, obloga ili
-              vrata vrijede onoliko koliko vrijedi njihova ugradnja.
-            </p>
-          </Reveal>
-          <Reveal delay={0.08} className="md:col-span-4 md:text-right">
-            <Link
-              href="/usluge"
-              className="inline-block px-6 py-3 font-semibold border border-paper/40 hover:bg-white/10 transition-colors"
-            >
-              Naše usluge →
-            </Link>
-          </Reveal>
-        </div>
-      </section>
-
       {/* ── Kontakt CTA — tinta ────────────────────────── */}
       <section className="bg-ink text-white">
         <div className={`${container} py-20 md:py-24`}>

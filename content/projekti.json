@@ -1,62 +1,21 @@
 {
   "categories": [
-    "Stambene zgrade",
-    "Poslovne zgrade",
-    "Zdravstvene ustanove",
-    "Škole i vrtići",
-    "Tuneli",
-    "Javna infrastruktura",
-    "Trgovački centri",
-    "Hoteli",
-    "Industrija"
+    "Bolnice i zdravstvene ustanove",
+    "Odgojno-obrazovne ustanove",
+    "Hoteli i ugostiteljski objekti",
+    "Industrijski i proizvodni objekti",
+    "Javni objekti i ustanove",
+    "Trgovački i prodajni centri",
+    "Stambene i poslovne zgrade i objekti",
+    "Povijesni i zaštićeni objekti",
+    "Kulturni i sakralni objekti",
+    "Prometna infrastruktura"
   ],
   "projects": [
     {
-      "slug": "tunel-plasina",
-      "title": "Tunel Plasina",
-      "category": "Tuneli",
-      "location": "Autocesta A1",
-      "year": "2024",
-      "description": "Protupožarna zaštita u cestovnom tunelu Plasina. Isporuka i ugradnja protupožarne bravarije za SOS niše i evakuacijske prolaze — vrata razvijena i proizvedena u FSB-u, certificirana za najstrože tunelske uvjete.",
-      "scope": [
-        "Protupožarna vrata za SOS niše i poprečne prolaze",
-        "Protupožarna bravarija u tehničkim prostorima",
-        "Protupožarna brtvljenja prodora instalacija",
-        "Kompletna dokumentacija i primopredaja"
-      ],
-      "image": "/images/fsb/projekti/tunel-plasina-1.jpg",
-      "gallery": [
-        "/images/fsb/projekti/tunel-plasina-2.jpg",
-        "/images/fsb/projekti/tunel-plasina-3.jpg",
-        "/images/fsb/projekti/tunel-plasina-4.jpg"
-      ],
-      "featured": true
-    },
-    {
-      "slug": "vmd-blok-buzanova",
-      "title": "VMD Blok Bužanova",
-      "category": "Stambene zgrade",
-      "location": "Zagreb",
-      "year": "2023",
-      "description": "Pasivna protupožarna zaštita stambeno-poslovnog kompleksa. Protupožarna brtvljenja svih instalacijskih prodora u garažama i etažama te protupožarne obloge tehničkih prostora.",
-      "scope": [
-        "Protupožarno brtvljenje prodora u garaži i etažama",
-        "Protupožarne obloge ventilacijskih kanala",
-        "Protupožarna vrata tehničkih prostora",
-        "Označavanje i evidencija svih brtvljenja"
-      ],
-      "image": "/images/fsb/projekti/vmd-buzanova-1.jpg",
-      "gallery": [
-        "/images/fsb/projekti/vmd-buzanova-2.jpg",
-        "/images/fsb/projekti/vmd-buzanova-3.jpg",
-        "/images/fsb/projekti/vmd-buzanova-4.jpg"
-      ],
-      "featured": true
-    },
-    {
       "slug": "bazeni-spansko",
       "title": "Bazeni Špansko",
-      "category": "Javna infrastruktura",
+      "category": "Javni objekti i ustanove",
       "location": "Zagreb",
       "year": "2023",
       "description": "Protupožarna zaštita gradskog bazenskog kompleksa Špansko. Obloge ventilacijskih kanala protupožarnim pločama, brtvljenja prodora i zaštita čelične konstrukcije u strojarnici i tehničkim prostorima.",
@@ -77,7 +36,7 @@
     {
       "slug": "kbc-sestre-milosrdnice",
       "title": "KBC Sestre milosrdnice",
-      "category": "Zdravstvene ustanove",
+      "category": "Bolnice i zdravstvene ustanove",
       "location": "Zagreb",
       "year": "2022",
       "description": "Kompleksni projekt protupožarne zaštite za bolnički kompleks. Uključivao je protupožarno brtvljenje prodora instalacija, ugradnju protupožarnih vrata i protupožarnih obloga.",
@@ -89,15 +48,15 @@
       ],
       "image": "/images/projects/kbc-sestre.jpg",
       "gallery": [],
-      "featured": false
+      "featured": true
     },
     {
-      "slug": "poslovna-zgrada-bhb",
-      "title": "Poslovna zgrada BHB",
-      "category": "Poslovne zgrade",
+      "slug": "stambeno-poslovna-zgrada-bhb",
+      "title": "Stambeno-poslovna zgrada BHB",
+      "category": "Stambene i poslovne zgrade i objekti",
       "location": "Zagreb",
       "year": "2021",
-      "description": "Moderna poslovna zgrada s najvišim standardima protupožarne zaštite. Projekt je uključivao kompletnu pasivnu protupožarnu zaštitu od temelja do krova.",
+      "description": "Stambeno-poslovna zgrada s najvišim standardima protupožarne zaštite. Projekt je uključivao kompletnu pasivnu protupožarnu zaštitu od temelja do krova.",
       "scope": [
         "Protupožarno brtvljenje svih prodora",
         "Protupožarna stakla u atriju",
@@ -106,12 +65,12 @@
       ],
       "image": "/images/projects/bhb.jpg",
       "gallery": [],
-      "featured": false
+      "featured": true
     },
     {
       "slug": "zicara-sljeme",
       "title": "Žičara Sljeme",
-      "category": "Javna infrastruktura",
+      "category": "Prometna infrastruktura",
       "location": "Zagreb - Sljeme",
       "year": "2022",
       "description": "Protupožarna zaštita novog kompleksa žičare Sljeme. Poseban izazov predstavljala je zaštita u zahtjevnim planinskim uvjetima.",
@@ -123,57 +82,6 @@
       ],
       "image": "/images/fsb/factory/factory-aerial-4.jpg",
       "gallery": ["/images/fsb/factory/factory-aerial-2.jpg"],
-      "featured": false
-    },
-    {
-      "slug": "shopping-centar-arena",
-      "title": "Shopping centar Arena",
-      "category": "Trgovački centri",
-      "location": "Zagreb",
-      "year": "2020",
-      "description": "Veliki trgovački centar sa složenim zahtjevima protupožarne zaštite. Realizacija je uključivala koordinaciju s brojnim izvođačima.",
-      "scope": [
-        "Sektoriranje požarnih zona",
-        "Protupožarna vrata i staklene stijene",
-        "Protupožarne obloge",
-        "Brtvljenje svih instalacijskih prodora"
-      ],
-      "image": "/images/projects/arena.jpg",
-      "gallery": [],
-      "featured": false
-    },
-    {
-      "slug": "hotel-westin",
-      "title": "Hotel Westin",
-      "category": "Hoteli",
-      "location": "Zagreb",
-      "year": "2019",
-      "description": "Prestižni hotel s najstrožim zahtjevima sigurnosti. Protupožarna zaštita usklađena s međunarodnim standardima.",
-      "scope": [
-        "Protupožarno brtvljenje u svim etažama",
-        "Protupožarna vrata u hodnicima",
-        "Zaštita dizala i stubišta",
-        "Protupožarne obloge"
-      ],
-      "image": "/images/projects/westin.jpg",
-      "gallery": [],
-      "featured": false
-    },
-    {
-      "slug": "farmaceutska-tvornica-pliva",
-      "title": "Farmaceutska tvornica Pliva",
-      "category": "Industrija",
-      "location": "Zagreb",
-      "year": "2021",
-      "description": "Industrijski objekt s posebnim zahtjevima za čistoću i protupožarnu zaštitu. Primijenjeni specijalizirani sustavi.",
-      "scope": [
-        "Protupožarno brtvljenje u čistim sobama",
-        "Protupožarne obloge procesnih instalacija",
-        "Zaštita procesnih instalacija",
-        "Protupožarni premazi"
-      ],
-      "image": "/images/projects/pliva.jpg",
-      "gallery": [],
       "featured": false
     }
   ]

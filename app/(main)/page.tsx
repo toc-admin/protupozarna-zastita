@@ -25,7 +25,7 @@ export default function Home() {
       <section className="border-b border-hairline">
         <div className={`${container} py-16 md:py-24 grid grid-cols-1 lg:grid-cols-2 gap-14 items-center`}>
           <div>
-            <span className={monoLabel}>FSB d.o.o. · Zagreb · 20 godina iskustva</span>
+            <span className={monoLabel}>FSB d.o.o. · Zagreb</span>
             <h1 className="mt-6 text-5xl md:text-6xl xl:text-7xl font-extrabold leading-[0.98] tracking-tight">
               Pasivna protupožarna zaštita
             </h1>
@@ -175,30 +175,6 @@ export default function Home() {
                 </div>
               </Link>
             </Reveal>
-          ))}
-        </div>
-      </section>
-
-      {/* ── Traka brojki — antracit ─────────────────────── */}
-      <section className="bg-anthracite border-y border-hairline-dark">
-        <div className={`${container} grid grid-cols-2 lg:grid-cols-4`}>
-          {[
-            ["20", "godina iskustva"],
-            ["300+", "realiziranih projekata"],
-            ["25+", "projekata godišnje"],
-            ["10+", "stručnjaka u timu"],
-          ].map(([value, label], i) => (
-            <div
-              key={label}
-              className={`py-10 px-6 ${i > 0 ? "border-l border-hairline-dark" : ""}`}
-            >
-              <div className="font-mono text-4xl md:text-5xl font-semibold text-white">
-                {value}
-              </div>
-              <div className="mt-2 font-mono text-[11px] uppercase tracking-[0.16em] text-neutral-400">
-                {label}
-              </div>
-            </div>
           ))}
         </div>
       </section>
